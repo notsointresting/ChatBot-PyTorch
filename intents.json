@@ -2,6 +2,34 @@
     "intents": 
         [
             {
+                "tag": "greeting",
+                "patterns": [
+                    "Hi",
+                    "Hello",
+                    "Is anyone there?",
+                    "Good day"
+                ],
+                "responses": [
+                    "Hello, Welcome to Dr. Babasaheb Ambedkar Technological University! How can I assist you today?",
+                    "Hi there, how can I assist you today?",
+                    "Hello, what can I do for you today?"
+                ]
+            },
+            {
+                "tag":"goodbye",
+                "patterns": [
+                    "Bye",
+                    "See you later",
+                    "Goodbye",
+                    "I'm off"
+                ],
+                "responses": [
+                    "Goodbye! Have a great day!",
+                    "See you later!",
+                    "Bye! Come back soon!"
+                ]
+            },
+            {
               "tag": "location",
               "patterns": [
                 "Where is the university located?",
