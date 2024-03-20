@@ -35,14 +35,8 @@ def main():
   if user_input:
     message(user_input, is_user=True)  # User message
     message(_insert_message(user_input), is_user=False)  # Bot response
-    # i want print chath history also
 
-    
-
-
-
-
-  # Footer (remains unchanged)
+  # Footer (Do not change)
     st.markdown(
         """
         <style>
@@ -62,7 +56,7 @@ def main():
 )
     st.markdown(
       '''
-      <div class="st-eu">Dr. Babasaheb Ambedkar Technological University, Lonere</div>''',
+      <div class="st-eu"><h6>Dr. Babasaheb Ambedkar Technological University, Lonere</h6></div>''',
       unsafe_allow_html=True,
   )
 
