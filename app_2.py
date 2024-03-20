@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_chat import message
 from chat import get_response, bot_name
 
 # Color constants (you can customize these)
@@ -11,54 +12,71 @@ FONT = "Helvetica 14"
 FONT_BOLD = "Helvetica 13 bold"
 
 
-def _insert_message(msg, sender = "You"):
-    if not msg:
-        return
+if 'generated' not in st.session_state:
+    st.session_state['generated'] = []
 
-    msg1 = f"{sender}: {msg}\n\n"
-    st.session_state.chat_history += msg1
+if 'past' not in st.session_state:
+    st.session_state['past'] = []
 
+def _insert_message(msg):
     msg2 = f"{bot_name}: {get_response(msg)} \n\n"
-    st.session_state.chat_history += msg2
+    st.chat_history.append(msg2)
+    return msg2
 
-
-
+def get_text():
+   user_input = st.text_input("Your Message", key="user_input")
+   return user_input
+   
 def main():
-    st.title("Chat Application")
+  st.title("Chat Application")
+  st.chat_history = []
 
-    # Initialize chat history in session state
-    if "chat_history" not in st.session_state:
-        st.session_state.chat_history = ""
+  # User Input
+  user_input = get_text()
+  
+  if user_input:
+    message(user_input, is_user=True)  # User message
+    st.session_state.past.append(user_input)
 
-    # Display chat history
-    st.text_area("Chat History", st.session_state.chat_history, height=300, disabled=True)
+    message(_insert_message(user_input), is_user=False)  # Bot response
+    st.session_state.generated.append(_insert_message(user_input))
+    # i want print chath history also
 
-    # Message input and send button
-    user_input = st.text_input("Your Message", on_change=_insert_message, args=("You",), key="user_input")
-    if st.button("Send"):
-        _insert_message(user_input)
-        user_input = ""  # Clear input after sending
-    # Footer
+if st.session_state['generated']:
+
+    for i in range(len(st.session_state['generated'])-1, -1, -1):
+        message(st.session_state["generated"][i], key=str(i))
+        message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
+
+    
+    
+
+
+
+  # Footer (remains unchanged)
     st.markdown(
         """
         <style>
-        .st-eu {  /* Target the footer container */
+        .st-eu { /* Target the footer container */
             text-align: center;
             font-size: 12px;
             color: gray;
-            position: fixed;  /* Fix the footer to the bottom */
+            position: fixed; /* Fix the footer to the bottom */
             bottom: 0;
             width: 100%;
+            left: 50%; /* Add this line to center the footer */
+            transform: translateX(-50%); /* Add this line to center the footer */
         }
         </style>
         """,
         unsafe_allow_html=True,
-    )
+)
     st.markdown(
-        '<div class="st-eu">Dr. Babasaheb Ambedkar Technological University, Lonere</div>',
-        unsafe_allow_html=True,
-    )
+      '''
+      <div class="st-eu">Dr. Babasaheb Ambedkar Technological University, Lonere</div>''',
+      unsafe_allow_html=True,
+  )
 
 
 if __name__ == "__main__":
-    main()
+  main()
