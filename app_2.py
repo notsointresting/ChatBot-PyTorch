@@ -18,7 +18,7 @@ if 'generated' not in st.session_state:
 if 'past' not in st.session_state:
     st.session_state['past'] = []
 
-def _insert_message(msg):
+def _insert_message(msg, sender = "You"):
     msg2 = f"{bot_name}: {get_response(msg)} \n\n"
     st.chat_history.append(msg2)
     return msg2
@@ -42,11 +42,7 @@ def main():
     st.session_state.generated.append(_insert_message(user_input))
     # i want print chath history also
 
-if st.session_state['generated']:
 
-    for i in range(len(st.session_state['generated'])-1, -1, -1):
-        message(st.session_state["generated"][i], key=str(i))
-        message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
 
     
     
