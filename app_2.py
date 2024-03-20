@@ -36,16 +36,11 @@ def main():
   
   if user_input:
     message(user_input, is_user=True)  # User message
-    st.session_state.past.append(user_input)
-
     message(_insert_message(user_input), is_user=False)  # Bot response
-    st.session_state.generated.append(_insert_message(user_input))
     # i want print chath history also
 
-
-
     
-    
+
 
 
 
