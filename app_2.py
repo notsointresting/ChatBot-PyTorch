@@ -20,7 +20,6 @@ if 'past' not in st.session_state:
 
 def _insert_message(msg, sender = "You"):
     msg2 = f"{bot_name}: {get_response(msg)} \n\n"
-    st.chat_history.append(msg2)
     return msg2
 
 def get_text():
@@ -28,8 +27,7 @@ def get_text():
    return user_input
    
 def main():
-  st.title("Chat Application")
-  st.chat_history = []
+  st.title("DBATU Chatbot")
 
   # User Input
   user_input = get_text()
