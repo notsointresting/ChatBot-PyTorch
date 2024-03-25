@@ -1,1027 +1,1095 @@
 {
-    "intents": [
-      {
-        "tag": "greeting",
-        "patterns": [
-          "Hi",
-          "Hello",
-          "Is anyone there?",
-          "Good day",
-          "Hey",
-          "Hola",
-          "Namaste",
-          "Good morning",
-          "Good afternoon",
-          "Good evening",
-          "Hi there",
-          "Good to see you",
-          "How are you doing?"
-        ],
-        "responses": [
-          "Hello, Welcome to Dr. Babasaheb Ambedkar Technological University! How can I assist you today?",
-          "Hi there, how can I assist you today?",
-          "Hello, what can I do for you today?"
-        ]
-      },
-      {
-        "tag": "GetScholarshipInformation",
-        "patterns": [
-          "Is there any special staff for explaining all government schemes related to scholarship and travelling scheme according to different castes?",
-          "What scholarships are available for caste students?",
-          "Are there any travel grants for students of caste?",
-          "How can I apply for government scholarships for caste?",
-          "Who can tell me about financial aid programs for caste students?",
-          "Are there any grants specifically for students from marginalized communities?",
-          "Can you provide information on scholarships available for minority students?",
-          "Where can I find details about financial aid opportunities tailored to students from diverse backgrounds?",
-          "Do you have resources for students seeking scholarships based on socioeconomic status?",
-          "Is there assistance available for students facing financial hardships due to their background?",
-          "What financial aid is available for students from underprivileged backgrounds?",
-          "Are there any scholarships specifically for students facing financial challenges?"
-        ],
-        "responses": "I'm not sure if there's a specific staff member dedicated to explaining all the government schemes, but I would recommend checking with the Student Welfare Department. They should be able to help you with information about scholarships and other financial assistance programs. You can also check the university website or contact the relevant government agencies directly."
-      },
-      {
-        "tag": "GetPlacementInformation",
-        "patterns": [
-          "Is there any opportunity to get a placement in Google, Flipkart, or Microsoft?",
-          "Do these companies recruit from DBATU?",
-          "Can I get a job at these companies after graduating from DBATU?",
-          "Are there any recent success stories of DBATU graduates securing positions in renowned companies?",
-          "Can you offer guidance on how to prepare for job opportunities at top tech firms post-graduation?",
-          "Do you have information on alumni who have successfully transitioned to careers in companies like Google, Flipkart, or Microsoft?",
-          "What steps can students take to enhance their chances of being noticed by leading companies?",
-          "Is there any awareness about the placement and package for lower branches?",
-          "What are the placement opportunities for VLSI, chemical, petrochemical etc.?",
-          "What is the average package for these branches?",
-          "Is there data available on the salary packages offered to graduates from different branches?",
-          "Can you provide insights into the placement trends for niche branches such as VLSI, chemical, and petrochemical engineering?",
-          "Are there any industry-specific recruitment drives for particular branches?",
-          "Could you share statistics on the employment rates and average salaries for graduates in various disciplines?",
-          "I'm a Computer Engineering student. What are my chances of getting placed in Google?"
-        ],
-        "responses": "While these Google, Flipkart or Microsoft companies haven't visited DBATU for campus placements recently, it's definitely not impossible to get a job there after you graduate. Many DBATU alumni have gone on to work at these and other top tech companies. The key is to focus on developing your skills and experience, building a strong portfolio, and networking with industry professionals. You can also apply for jobs and internships at these companies directly. For more specific information about placements and packages for various branches, I recommend reaching out to the Training and Placement Cell directly."
-      },
-      {
-        "tag": "GetAdmissionDocumentInformation",
-        "patterns": [
-          "Can you provide documents required for admission?",
-          "Where can I find the list of documents needed for admission?",
-          "What documents do I need to submit to apply to DBATU?",
-          "Are there any specific formats or guidelines for submitting admission documents?",
-          "Do international applicants have different document requirements?",
-          "Could you clarify if there are any additional documents needed for specific courses or programs?",
-          "Is there a deadline for submitting the required admission documents?"
-        ],
-        "responses": "You can find the documents required for admission to DBATU on the university's website. The website has a dedicated Admissions section that provides detailed information about the admission process for different programs, including the eligibility criteria and the documents required for application.\n\nHere is the link to the DBATU Admissions website: https://dbatu.ac.in/admissions/"
-      },
-      {
-        "tag": "GetUniversityInformation",
-        "patterns": [
-          "Why DBATU?",
-          "What are the advantages of studying at DBATU?",
-          "What makes DBATU a good university?",
-          "Can you provide testimonials from current students or alumni about their experiences at DBATU?",
-          "Are there any notable research projects or collaborations that distinguish DBATU from other universities?",
-          "Could you elaborate on the facilities available for student support services at DBATU?",
-          "What initiatives does DBATU undertake to promote diversity and inclusion within its campus community?"
-        ],
-        "responses": "There are many reasons why DBATU might be a good choice for you, depending on what you're looking for in a university. Some of the things that DBATU is known for include its strong academic programs, experienced faculty, good infrastructure, affordable fees, and focus on research and innovation. There's also a vibrant student life with lots of opportunities to get involved in clubs and organizations.\n\nUltimately, the decision of where to go to university is a personal one. I encourage you to do your research and consider your own individual needs and goals before making a decision."
-      },
-      {
-        "tag": "goodbye",
-        "patterns": [
-          "Bye",
-          "See you later",
-          "Goodbye",
-          "I'm off"
-        ],
-        "responses": [
-          "Goodbye! Have a great day!",
-          "See you later!",
-          "Bye! Come back soon!"
-        ]
-      },
-      {
-        "tag": "location",
-        "patterns": [
-          "Where is the university located?",
-          "Where is DBATU?",
-          "In which city is DBATU situated?"
-        ],
-        "responses": [
-          "DBATU is located in Lonere, Raigad district, Maharashtra, India."
-        ]
-      },
-      {
-        "tag": "courses",
-        "patterns": [
-          "What courses does the university offer?",
-          "What programs are available at DBATU?",
-          "Can I study engineering at DBATU?"
-        ],
-        "responses": [
-          "DBATU offers a wide range of undergraduate, postgraduate, and doctoral programs in various disciplines, including engineering, technology, pharmacy, architecture, hotel management, and catering technology."
-        ]
-      },
-      {
-        "tag": "admission",
-        "patterns": [
-          "How can I apply for admission?",
-          "What is the admission procedure for DBATU?",
-          "How do I get into DBATU?"
-        ],
-        "responses": [
-          "The admission process for different programs varies. Please visit the university's website for detailed information on how to apply for admission to your desired program."
-        ]
-      },
-      {
-        "tag": "fees",
-        "patterns": [
-          "What is the fee for the courses?",
-          "How much does it cost to study at DBATU?",
-          "Are there scholarships available?"
-        ],
-        "responses": [
-          "The fee for the courses varies depending on the program and the category of the student. You can find the detailed fee structure on the university's website."
-        ]
-      },
-      {
-        "tag": "hostel",
-        "patterns": [
-          "Does the university offer hostels?",
-          "Is there accommodation available on campus?",
-          "Can I stay in a hostel at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU offers hostel accommodation for students enrolled in Bachelor of Technology and Diploma in Engineering programs."
-        ]
-      },
-      {
-        "tag": "head_of_university",
-        "patterns": [
-          "Who is the head of the university?",
-          "Who is the Vice-Chancellor of DBATU?"
-        ],
-        "responses": [
-          "The head of the university is the Vice-Chancellor. As of October 27, 2023, the Vice-Chancellor of DBATU is Dr. Karbhari V Kale."
-        ]
-      },
-      {
-        "tag": "library",
-        "patterns": [
-          "Does the university have a library?",
-          "Is there a digital library at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU has a well-equipped library with a rich collection of books, journals, and other reference materials. The library also has a digital library with access to a variety of e-books, e-journals, and other online resources. You can find more information here: https://dbatu.ac.in/university-library/"
-        ]
-      },
-      {
-        "tag": "sports",
-        "patterns": [
-          "What sports does the university offer?",
-          "Can I play cricket at DBATU?"
-        ],
-        "responses": [
-          "DBATU has facilities for a variety of sports, including cricket, football, basketball, volleyball, badminton, table tennis, and athletics. You can find more information here: https://dbatu.ac.in/university-sports/"
-        ]
-      },
-      {
-        "tag": "canteen",
-        "patterns": [
-          "Does the university have a canteen?",
-          "Is there a cafeteria at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU has a cafeteria that provides healthy and tasty meals to students, faculty, and staff."
-        ]
-      },
-      {
-        "tag": "contact_information",
-        "patterns": [
-          "What is the university's contact number?",
-          "What is the university's email address?",
-          "Does the university have a website?"
-        ],
-        "responses": [
-          "You can find the university's contact information, including its phone number, email address, and website, on its website: https://dbatu.ac.in/"
-        ]
-      },
-      {
-        "tag": "scholarships",
-        "patterns": [
-          "Does the university offer scholarships?",
-          "How can I get a scholarship at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU offers a variety of scholarships to students based on merit, need, and other criteria. You can find more information here: https://dbatu.ac.in/student-scholarships/"
-        ]
-      },
-      {
-        "tag": "ranking",
-        "patterns": [
-          "What is the university's ranking?",
-          "How is DBATU ranked?"
-        ],
-        "responses": [
-          "DBATU has been ranked by various organizations, including the National Institutional Ranking Framework (NIRF) and India Today. You can find the university's latest rankings on its website."
-        ]
-      },
-      {
-        "tag": "placement_cell",
-        "patterns": [
-          "Does the university have a placement cell?",
-          "Does DBATU help students find jobs?"
-        ],
-        "responses": [
-          "Yes, DBATU has a Training and Placement Cell that helps students find jobs after graduation. You can find more information here: https://dbatu.ac.in/training-and-placement/"
-        ]
-      },
-      {
-        "tag": "history",
-        "patterns": [
-          "What is the university's history?",
-          "When was DBATU established?"
-        ],
-        "responses": [
-          "DBATU was established in 1989 as a unitary university and was converted to an affiliating technological university in 2016."
-        ]
-      },
-      {
-        "tag": "research_center",
-        "patterns": [
-          "Does the university have a research center?",
-          "Does DBATU conduct research?"
-        ],
-        "responses": [
-          "Yes, DBATU has a dedicated Research and Innovation department that promotes and facilitates research activities at the university. You can find more information here: https://dbatu.ac.in/research/"
-        ]
-      },
-      {
-        "tag": "mission",
-        "patterns": [
-          "What is the university's mission?",
-          "What are DBATU's goals?"
-        ],
-        "responses": [
-          "DBATU's mission is to provide quality technical education, research, and development services to meet the needs of industry, business, the service sector, and society at large."
-        ]
-      },
-      {
-        "tag": "student_council",
-        "patterns": [
-          "Does the university have a student council?",
-          "How can I get involved in the student council at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU has a Students' Council that represents the interests of the students and organizes various activities on campus."
-        ]
-      },
-      {
-        "tag": "attendance_policy",
-        "patterns": [
-          "What is the university's attendance policy?",
-          "Do I need to attend all my classes at DBATU?"
-        ],
-        "responses": [
-          "DBATU has a strict attendance policy. Students are required to maintain a minimum attendance of 75% in all classes."
-        ]
-      },
-      {
-        "tag": "medical_center",
-        "patterns": [
-          "Does the university have a medical center?",
-          "Is there a health center at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU has a Health Care Center that provides medical services to students, faculty, and staff. You can find more information here: https://dbatu.ac.in/health-care-center/"
-        ]
-      },
-      {
-        "tag": "exam_schedule",
-        "patterns": [
-          "What is the university's exam schedule?",
-          "When are my exams at DBATU?"
-        ],
-        "responses": [
-          "The university's exam schedule is available on its website: https://dbatu.ac.in/exam-section1/"
-        ]
-      },
-      {
-        "tag": "computer_lab",
-        "patterns": [
-          "Does the university have a computer lab?",
-          "Can I use computers at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU has a computer center with 100 PCs for students and high-end computational facilities for research."
-        ]
-      },
-      {
-        "tag": "grading_system",
-        "patterns": [
-          "What is the university's grading system?",
-          "How are grades calculated at DBATU?"
-        ],
-        "responses": [
-          "DBATU follows a credit-based grading system. The performance of students is documented by letter grades and grade points."
-        ]
-      },
-      {
-        "tag": "alumni_association",
-        "patterns": [
-          "Does the university have an alumni association?",
-          "How can I stay connected with DBATU after I graduate?"
-        ],
-        "responses": [
-          "Yes, DBATU has an Alumni Association that helps alumni stay connected with the university and each other. You can find more information here: https://alumni.dbatu.ac.in/home.dz"
-        ]
-      },
-      {
-        "tag": "dress_code",
-        "patterns": [
-          "What is the university's dress code?",
-          "What should I wear to class at DBATU?"
-        ],
-        "responses": [
-          "DBATU has a formal dress code for students."
-        ]
-      },
-      {
-        "tag": "academic_calendar",
-        "patterns": [
-          "What is the university's academic calendar?",
-          "When does the semester start at DBATU?"
-        ],
-        "responses": [
-          "The university's academic calendar is available on its website: https://dbatu.ac.in/academic-calendar/"
-        ]
-      },
-      {
-        "tag": "science_lab",
-        "patterns": [
-          "Does the university have a science lab?",
-          "Can I use the science labs at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU has well-equipped science labs for various disciplines."
-        ]
-      },
-      {
-        "tag": "cultural_fest",
-        "patterns": [
-          "Does the university have a cultural fest?",
-          "What events are held at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU has various events, including cultural fests. You can find more information here: https://dbatu.ac.in/events/"
-        ]
-      },
-      {
-        "tag": "student_clubs",
-        "patterns": [
-          "Does the university have student clubs?",
-          "How can I join a club at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU has a variety of student clubs and organizations that cater to different interests and hobbies."
-        ]
-      },
-      {
-        "tag": "faculty",
-        "patterns": [
-          "Who are the faculty members at DBATU?",
-          "Can I see the list of professors at the university?"
-        ],
-        "responses": [
-          "You can find the list of faculty members at DBATU on the university's website: https://dbatu.ac.in/departments/"
-        ]
-      },
-      {
-        "tag": "student_portal",
-        "patterns": [
-          "Does the university have a student portal?",
-          "How can I access my student account at DBATU?"
-        ],
-        "responses": [
-          "Yes, DBATU has a student portal where students can access their academic records, course materials, and other information. You can find more information here: https://dbatu.ac.in/student-portal/"
-        ]
-      },
-      {
-        "tag": "industry_collaboration",
-        "patterns": [
-          "Does the university collaborate with industries?",
-          "Does DBATU have industry partnerships?"
-        ],
-        "responses": [
-          "Yes, DBATU has collaborations with various industries and organizations to provide students with practical exposure and opportunities for internships and placements. Here is link to the page: https://dbatu.ac.in/training-and-placement/"
-        ]
-      },
-      {
-        "tag": "international_students",
-        "patterns": [
-          "Does the university accept international students?",
-          "How can I apply as an international student?"
-        ],
-        "responses": [
-          "Yes, DBATU welcomes international students and has a dedicated office to assist them with the admission process, visa requirements, and other formalities."
-        ]
-      },
-      {
-        "tag": "degree_difference",
-        "patterns": [
-          "What is the difference between a bachelor's degree and a master's degree?",
-          "What is the difference between an undergraduate degree and a postgraduate degree?",
-          "What's the difference between a bachelor's and a master's?",
-          "Is a master's degree harder than a bachelor's degree?"
-        ],
-        "responses": [
-          "A bachelor's degree is typically a four-year undergraduate degree, while a master's degree is a two-year postgraduate degree. Master's degrees are more specialized than bachelor's degrees and require students to have a strong foundation in their chosen field."
-        ]
-      },
-      {
-        "tag": "research_vs_professional",
-        "patterns": [
-          "What is the difference between a research degree and a professional degree?",
-          "Should I get a Ph.D. or an MBA?",
-          "What's the difference between a research degree and a professional degree?",
-          "Is a research degree better than a professional degree?"
-        ],
-        "responses": [
-          "A research degree, such as a Ph.D., focuses on developing research skills and contributing to knowledge in a particular field. A professional degree, such as an MBA, focuses on developing practical skills and knowledge for a specific career."
-        ]
-      },
-      {
-        "tag": "credit_system",
-        "patterns": [
-          "What is the credit system and mode of evaluation followed at DBATU?",
-          "How are courses evaluated at DBATU?",
-          "What is the CBCS system?",
-          "How does DBATU assess students?"
-        ],
-        "responses": [
-          "DBATU follows a choice-based credit system (CBCS) with a mix of formative and summative assessment methods."
-        ]
-      },
-      {
-        "tag": "computer_engineering_courses",
-        "patterns": [
-          "What are the different types of courses offered in the Computer Engineering program at DBATU?",
-          "What will I study in the Computer Engineering program at DBATU?",
-          "What courses are available to Computer Engineering students at DBATU?",
-          "What are the core courses in the Computer Engineering program at DBATU?"
-        ],
-        "responses": [
-          "The Computer Engineering program at DBATU offers a variety of courses, including core courses, elective courses, and laboratory courses."
-        ]
-      },
-      {
-        "tag": "theory_practical_ratio",
-        "patterns": [
-          "What is the ratio of theory to practical courses in the Computer Engineering program at DBATU?",
-          "How much practical experience will I get in the Computer Engineering program at DBATU?",
-          "Is the Computer Engineering program at DBATU more theoretical or practical?",
-          "How much hands-on experience will I get in the Computer Engineering program at DBATU?"
-        ],
-        "responses": [
-          "The ratio of theory to practical courses in the Computer Engineering program at DBATU is approximately 70:30."
-        ]
-      },
-      {
-        "tag": "continuous_assessment",
-        "patterns": [
-          "What are the different methods of continuous assessment used in the Computer Engineering program at DBATU?",
-          "How am I assessed in the Computer Engineering program at DBATU?",
-          "What are some examples of continuous assessment methods used at DBATU?",
-          "How does DBATU ensure continuous learning?"
-        ],
-        "responses": [
-          "The different methods of continuous assessment used in the Computer Engineering program at DBATU include quizzes, assignments, mini-projects, and internships."
-        ]
-      },
-      {
-        "tag": "passing_percentage",
-        "patterns": [
-          "What is the passing percentage for a course in the Computer Engineering program at DBATU?",
-          "What do I need to do to pass a course at DBATU?",
-          "What is the minimum score I need to pass a course at DBATU?",
-          "How do I pass a subject head at DBATU?"
-        ],
-        "responses": [
-          "To pass a course in the Computer Engineering program at DBATU, a student must obtain at least 40% marks in the end-semester examination AND 40% of the total marks for the subject head."
-        ]
-      },
-      {
-        "tag": "minimum_cgpa",
-        "patterns": [
-          "What is the minimum CGPA required to graduate from the Computer Engineering program at DBATU?",
-          "What CGPA do I need to get to graduate from DBATU?",
-          "What is the minimum GPA requirement at DBATU?",
-          "Do I need a high CGPA to graduate from DBATU?"
-        ],
-        "responses": [
-          "The minimum CGPA required to graduate from the Computer Engineering program at DBATU is 6.00."
-        ]
-      },
-      {
-        "tag": "research_projects",
-        "patterns": [
-          "What are the different types of research projects undertaken by the faculty in the Computer Engineering department at DBATU?",
-          "What research is being done in the Computer Engineering department at DBATU?",
-          "What are some examples of research projects in the Computer Engineering department at DBATU?",
-          "Can I participate in research projects at DBATU?"
-        ],
-        "responses": [
-          "The faculty in the Computer Engineering department at DBATU undertakes research in a variety of areas, including artificial intelligence, machine learning, data science, big data analysis, soft computing, cloud computing, artificial neural networks, VLSI design and technology, and more."
-        ]
-      },
-      {
-        "tag": "student_clubs",
-        "patterns": [
-          "What are the different student clubs and organizations associated with the Computer Engineering department at DBATU?",
-          "Are there any clubs for Computer Engineering students at DBATU?",
-          "What extracurricular activities are available for Computer Engineering students at DBATU?",
-          "How can I get involved in the Computer Engineering department at DBATU?"
-        ],
-        "responses": [
-          "The Computer Engineering department at DBATU has a number of student clubs and organizations, including the Association of Computer Engineering Students (ACES) and a local CodeChef chapter for competitive programming."
-        ]
-      },
-      {
-        "tag": "future_plans",
-        "patterns": [
-          "What are the future plans of the Computer Engineering department at DBATU?",
-          "What is the Computer Engineering department at DBATU planning for the future?",
-          "What are the goals of the Computer Engineering department at DBATU?",
-          "How is the Computer Engineering department at DBATU improving?"
-        ],
-        "responses": [
-          "The future plans of the Computer Engineering department at DBATU include aligning curricular activities with NEP 2020 guidelines, achieving 100% placement for B.Tech. (Computer Engineering) students before 2025, doubling the number of Ph.D. students on roll before 2025, establishing research collaborations with foreign universities, developing a culture of research, innovation, and entrepreneurship among students, and adopting cloud-based platforms for student support."
-        ]
-      },
-      {
-        "tag": "program_duration",
-        "patterns": [
-          "What is the duration of the Computer Engineering program at DBATU?",
-          "How long does it take to complete the Computer Engineering program at DBATU?",
-          "How many years is the Computer Engineering program at DBATU?",
-          "Is the Computer Engineering program at DBATU a long program?"
-        ],
-        "responses": [
-          "The duration of the B.Tech. program in Computer Engineering at DBATU is four years."
-        ]
-      },
-      {
-        "tag": "faculty_student_ratio",
-        "patterns": [
-          "What is the faculty-to-student ratio in the Computer Engineering department at DBATU?",
-          "How many students are there per faculty member in the Computer Engineering department at DBATU?",
-          "Is the class size small in the Computer Engineering department at DBATU?",
-          "Will I get individual attention from faculty members in the Computer Engineering department at DBATU?"
-        ],
-        "responses": [
-          "The faculty-to-student ratio in the Computer Engineering department at DBATU varies from year to year, but it is typically around 1:25."
-        ]
-      },
-      {
-        "tag": "scholarships_available",
-        "patterns": [
-          "What are the different types of scholarships available to students in the Computer Engineering program at DBATU?",
-          "Can I get a scholarship to study Computer Engineering at DBATU?",
-          "Are there any financial aid options for Computer Engineering students at DBATU?",
-          "How can I afford to study Computer Engineering at DBATU?"
-        ],
-        "responses": [
-          "DBATU offers a variety of scholarships to students based on merit, need, and other criteria. Some of the scholarships available to students in the Computer Engineering program include Government of India scholarships, Government of Maharashtra scholarships, University scholarships, and Industry-sponsored scholarships."
-        ]
-      },
-      {
-        "tag": "average_salary",
-        "patterns": [
-          "What is the average salary package for graduates of the Computer Engineering program at DBATU?",
-          "How much can I expect to earn after graduating from the Computer Engineering program at DBATU?",
-          "Do Computer Engineering graduates from DBATU get good jobs?",
-          "Is the Computer Engineering program at DBATU worth it?"
-        ],
-        "responses": [
-          "The average salary package for graduates of the Computer Engineering program at DBATU varies from year to year and depends on factors such as the student's academic record, skills, and the job market. However, in recent years, the average salary package has been around INR 4-5 lakhs per annum."
-        ]
-      },
-      {
-        "tag": "career_opportunities",
-        "patterns": [
-          "What are the different career opportunities available to graduates of the Computer Engineering program at DBATU?",
-          "What kind of jobs can I get with a Computer Engineering degree from DBATU?",
-          "What are some popular career paths for Computer Engineering graduates?",
-          "Is Computer Engineering a good major?"
-        ],
-        "responses": [
-          "Graduates of the Computer Engineering program at DBATU have a wide range of career opportunities available to them, including Software Engineer, Hardware Engineer, Network Engineer, Data Scientist, Machine Learning Engineer, Artificial Intelligence Engineer, Web Developer, Mobile App Developer, and many more."
-        ]
-      },
-      {
-        "tag": "research_facilities",
-        "patterns": [
-          "What are the different research facilities available to students in the Computer Engineering department at DBATU?",
-          "Can I do research in the Computer Engineering department at DBATU?",
-          "What kind of research equipment is available at DBATU?",
-          "Does DBATU have good research facilities?"
-        ],
-        "responses": [
-          "The Computer Engineering department at DBATU has a number of research facilities available to students, including high-end computational facilities, a central fabrication facility, state-of-the-art laboratories, and access to research journals and proceedings through the University library."
-        ]
-      },
-      {
-        "tag": "industry_partnerships",
-        "patterns": [
-          "What are the different industry partnerships that the Computer Engineering department at DBATU has?",
-          "Does the Computer Engineering department at DBATU have any industry connections?",
-          "Does DBATU work with any companies?",
-          "How does DBATU prepare students for the workforce?"
-        ],
-        "responses": [
-          "The Computer Engineering department at DBATU has partnerships with a number of industries, including ATA Freight, Autodesk, NASSCOM, MNNIT Allahabad, and VJTI."
-        ]
-      },
-      {
-        "tag": "btech_mtech_difference",
-        "patterns": [
-          "What is the difference between the B.Tech. and M.Tech. programs in Computer Engineering at DBATU?",
-          "Should I get a B.Tech. or an M.Tech. in Computer Engineering from DBATU?",
-          "What is the difference between an undergraduate and a postgraduate degree in Computer Engineering at DBATU?",
-          "Is an M.Tech. degree necessary after a B.Tech. degree?"
-        ],
-        "responses": [
-          "The B.Tech. program in Computer Engineering is a four-year undergraduate program that provides students with a strong foundation in the fundamentals of computer science and engineering. The M.Tech. program in Computer Engineering is a two-year postgraduate program that is more specialized and research-oriented. M.Tech. students are required to complete a research project and dissertation."
-        ]
-      },
-      {
-        "tag": "mtech_admission",
-        "patterns": [
-          "What are the admission requirements for the M.Tech. program in Computer Engineering at DBATU?",
-          "How can I get into the M.Tech. program in Computer Engineering at DBATU?",
-          "What are the eligibility criteria for the M.Tech. program in Computer Engineering at DBATU?",
-          "Do I need to take the GATE exam to get into the M.Tech. program in Computer Engineering at DBATU?"
-        ],
-        "responses": [
-          "To be eligible for admission to the M.Tech. program in Computer Engineering at DBATU, you must have a Bachelor's degree in Engineering or Technology in a relevant field from a recognized university, have obtained at least 60% marks (55% for candidates belonging to reserved categories) in the qualifying examination, and qualify in the GATE examination or the university's in-house entrance test."
-        ]
-      },
-      {
-      "tag": "head_of_department",
-      "patterns": [
-        "Who is the Head of the Computer Engineering department at DBATU?",
-        "Who is in charge of the Computer Engineering department at DBATU?",
-        "Who runs the Computer Engineering department at DBATU?",
-        "Who can I talk to about the Computer Engineering department at DBATU?"
-      ],
-      "responses": [
-        "The Head of the Computer Engineering department at DBATU is Dr. A. W. Kiwelekar."
-      ]
-    },
-    {
-      "tag": "faculty_members",
-      "patterns": [
-        "Who are the other faculty members in the Computer Engineering department at DBATU?",
-        "Who teaches in the Computer Engineering department at DBATU?",
-        "Who are the professors in the Computer Engineering department at DBATU?",
-        "Can you tell me more about the faculty in the Computer Engineering department at DBATU?"
-      ],
-      "responses": [
-        "The other faculty members in the Computer Engineering department at DBATU include Dr. L. D. Netak, Dr. M. D. Laddha, Dr. H. A. Akarte, Dr. I. R. A. Jhetam, and many more. You can find a complete list of faculty members on the university's website."
-      ]
-    },
-    {
-      "tag": "faculty_qualifications",
-      "patterns": [
-        "What are the qualifications of the faculty members in the Computer Engineering department at DBATU?",
-        "Are the faculty members in the Computer Engineering department at DBATU qualified?",
-        "Do the faculty members in the Computer Engineering department at DBATU have Ph.D.s?",
-        "Are the professors at DBATU experts in their fields?"
-      ],
-      "responses": [
-        "The faculty members in the Computer Engineering department at DBATU are highly qualified, with most of them holding Ph.D. degrees from reputed institutions."
-      ]
-    },
-    {
-      "tag": "faculty_research",
-      "patterns": [
-        "What are the research interests of the faculty members in the Computer Engineering department at DBATU?",
-        "What kind of research do the faculty members in the Computer Engineering department at DBATU do?",
-        "What are the faculty members in the Computer Engineering department at DBATU researching?",
-        "Can I collaborate with faculty members on research projects at DBATU?"
-      ],
-      "responses": [
-        "The faculty members in the Computer Engineering department at DBATU have a wide range of research interests, including artificial intelligence, machine learning, data science, big data analysis, soft computing, cloud computing, artificial neural networks, VLSI design and technology, and more. You can find more information about faculty research interests on the university's website or by contacting the department directly."
-      ]
-    },
-    {
-      "tag": "teaching_methods",
-      "patterns": [
-        "What are the teaching methods used by the faculty members in the Computer Engineering department at DBATU?",
-        "How do the faculty members in the Computer Engineering department at DBATU teach?",
-        "What kind of teaching styles do the professors at DBATU use?",
-        "Does DBATU use online learning?"
-      ],
-      "responses": [
-        "The faculty members in the Computer Engineering department at DBATU use a variety of teaching methods, including traditional classroom teaching, online teaching, and blended learning. The specific teaching methods used may vary depending on the course and the instructor."
-      ]
-    },
-    {
-      "tag": "faculty_interaction",
-      "patterns": [
-        "How do the faculty members in the Computer Engineering department at DBATU interact with students?",
-        "Can I talk to the faculty members in the Computer Engineering department at DBATU outside of class?",
-        "Are the faculty members at DBATU approachable?",
-        "How can I get help from faculty members at DBATU?"
-      ],
-      "responses": [
-        "The faculty members in the Computer Engineering department at DBATU interact with students through lectures, tutorials, practical sessions, research projects, and are available to meet with students outside of the classroom to discuss their academic progress and career goals. Students can also reach out to faculty members via email or phone."
-      ]
-    },
-    {
-      "tag": "outside_interaction",
-      "patterns": [
-        "What are the opportunities for students to interact with faculty members outside of the classroom in the Computer Engineering department at DBATU?",
-        "How can I get to know the faculty members in the Computer Engineering department at DBATU better?",
-        "Are there any research opportunities for students in the Computer Engineering department at DBATU?",
-        "How can I get involved in research at DBATU?"
-      ],
-      "responses": [
-        "There are a number of opportunities for students to interact with faculty members outside of the classroom in the Computer Engineering department at DBATU, including research projects, student clubs and organizations, office hours, and seminars and workshops. Students can also participate in departmental events and activities."
-      ]
-    },
-    {
-      "tag": "registrar",
-      "patterns": [
-        "Who is the Registrar of DBATU?",
-        "Who is the administrative head of DBATU?"
-      ],
-      "responses": [
-        "As of January 2024, the Registrar of DBATU is Dr. A. W. Kiwelekar."
-      ]
-    },
-    {
-      "tag": "controller_email",
-      "patterns": [
-        "What is the email address of the Controller of Examination (I/c)?",
-        "How can I contact the Controller of Examination at DBATU?"
-      ],
-      "responses": [
-        "The email address of the Controller of Examination (I/c) at DBATU is coe@dbatu.ac.in."
-      ]
-    },
-    {
-      "tag": "in_semester_weightage",
-      "patterns": [
-        "What is the weightage of in-semester assessment in the overall evaluation?",
-        "How much do my in-semester grades matter at DBATU?"
-      ],
-      "responses": [
-        "The weightage of in-semester assessment in the overall evaluation varies depending on the course. For theory courses, the weightage is typically 40% (20% for continuous assessment and 20% for the mid-semester exam). For practical courses, the weightage of continuous assessment is typically 60%."
-      ]
-    },
-    {
-      "tag": "minimum_grade",
-      "patterns": [
-        "What is the minimum grade required to pass a subject head?",
-        "What grade do I need to get to pass a course at DBATU?"
-      ],
-      "responses": [
-        "To pass a subject head at DBATU, a student must obtain at least 40% marks in the end-semester examination AND 40% of the total marks for the subject head. This corresponds to a letter grade of EE or higher."
-      ]
-    },
-    {
-      "tag": "xx_grade",
-      "patterns": [
-        "What does the XX grade indicate?",
-        "What happens if I get an XX grade at DBATU?"
-      ],
-      "responses": [
-        "The XX grade at DBATU indicates that a student has been debarred from appearing for the examination in that subject. This grade is typically awarded if a student does not meet the minimum attendance requirements, has bad or incomplete in-semester records, or indulges in misconduct."
-      ]
-    },
-    {
-      "tag": "sgpa_calculation",
-      "patterns": [
-        "How is SGPA calculated?",
-        "How does DBATU calculate my SGPA?"
-      ],
-      "responses": [
-        "The Semester Grade Point Average (SGPA) is calculated as a weighted average of the grade points obtained in all the courses taken by a student in a semester. The formula for calculating SGPA is: SGPA = Σ(ci * gi) / Σci, where ci is the number of credits allotted to a particular subject, and gi is the grade point awarded to the student for the subject."
-      ]
-    },
-    {
-      "tag": "class_on_certificate",
-      "patterns": [
-        "Is the class mentioned on the degree certificate?",
-        "Will my degree certificate say what class I got?"
-      ],
-      "responses": [
-        "No, the class is not mentioned on the degree certificate. However, it is mentioned in the semester grade report."
-      ]
-    },
-    {
-      "tag": "sports_facilities",
-      "patterns": [
-        "What are the facilities available in the Sports Department?",
-        "What sports can I play at DBATU?"
-      ],
-      "responses": [
-        "The Sports Department at DBATU has facilities for a variety of sports, including cricket, football, basketball, volleyball, badminton, table tennis, and athletics. The department also has a well-equipped gymnasium, a sports ground, and a swimming pool (under construction). Here is link, https://dbatu.ac.in/university-sports/"
-      ]
-    },
-    {
-      "tag": "research_innovation_aim",
-      "patterns": [
-        "What is the aim of the Research and Innovation department?",
-        "What does the Research and Innovation department at DBATU do?"
-      ],
-      "responses": [
-        "The aim of the Research and Innovation department at DBATU is to promote and facilitate research and innovation activities at the university."
-      ]
-    },
-    {
-      "tag": "library_collection",
-      "patterns": [
-        "How many books are in the University Library collection?",
-        "How big is the library at DBATU?"
-      ],
-      "responses": [
-        "The University Library at DBATU has a collection of over 100,000 volumes and titles."
-      ]
-    },
-    {
-      "tag": "innovation_center",
-      "patterns": [
-        "What is the name of the Innovation and Incubation Centre at DBATU?",
-        "Does DBATU have an innovation center?"
-      ],
-      "responses": [
-        "The Innovation and Incubation Centre at DBATU is called the DBATU Forum of Innovation Incubation and Enterprise (FIIE). Here is link, https://dbatuiiec.com/"
-      ]
-    },
-    {
-      "tag": "hostel_availability",
-      "patterns": [
-        "How many hostels are available for students?",
-        "Can I live on campus at DBATU?"
-      ],
-      "responses": [
-        "DBATU has a total of five hostels, two for boys and three for girls. Here is link, https://dbatu.ac.in/university-hostels/"
-      ]
-    },
-    {
-      "tag": "hostel_facilities",
-      "patterns": [
-        "What facilities are available in the hostels?",
-        "What amenities do the hostels at DBATU have?"
-      ],
-      "responses": [
-        "The hostels at DBATU are equipped with modern amenities, including spacious rooms, mess facilities, common rooms, and 24/7 security."
-      ]
-    },
-    {
-      "tag": "hostel_admission",
-      "patterns": [
-        "How can I apply for hostel accommodation?",
-        "What is the process for getting a hostel room at DBATU?"
-      ],
-      "responses": [
-        "The process for applying for hostel accommodation at DBATU is available on the university's website. Here is link, https://dbatu.ac.in/university-hostels/"
-      ]
-    },
-    {
-      "tag": "hostel_rules",
-      "patterns": [
-        "What are the rules and regulations for students living in the hostels?",
-        "What are the hostel rules at DBATU?"
-      ],
-      "responses": [
-        "The rules and regulations for students living in the hostels at DBATU are available on the university's website. Here is link, https://dbatu.ac.in/university-hostels/"
-      ]
-    },
-    {
-      "tag": "hostel_warden",
-      "patterns": [
-        "Who is the warden of the hostels at DBATU?",
-        "Who is in charge of the hostels at DBATU?"
-      ],
-      "responses": [
-        "The wardens of the hostels at DBATU are responsible for the overall management and administration of the hostels. Here is link, https://dbatu.ac.in/university-hostels/"
-      ]
-    },
-    {
-      "tag": "hostel_mess",
-      "patterns": [
-        "What is the quality of the food in the hostels?",
-        "How is the mess food at DBATU?"
-      ],
-      "responses": [
-        "The quality of the food in the hostels at DBATU is good, and the mess facilities are managed by experienced staff."
-      ]
-    },
-    {
-      "tag": "hostel_security",
-      "patterns": [
-        "How is the security in the hostels?",
-        "Are the hostels at DBATU safe?"
-      ],
-      "responses": [
-        "The hostels at DBATU have 24/7 security to ensure the safety and well-being of the students."
-      ]
-    },
-    {
-      "tag": "fees_financial_aid",
-      "patterns": [
-        "How much does it cost to study at DBATU?",
-        "Are there any scholarships available?",
-        "What kind of financial aid does DBATU offer?",
-        "Can I afford to study at DBATU?"
-      ],
-      "responses": [
-        "The fees for different programs at DBATU vary. You can find the detailed fee structure on the university's website. DBATU also offers a variety of scholarships and financial aid options to students. You can find more information about scholarships and financial aid on the university's website. Here is link: https://dbatu.ac.in/student-scholarships/"
-      ]
-    },
-    {
-      "tag": "campus_life",
-      "patterns": [
-        "What is campus life like at DBATU?",
-        "What are some things to do on campus at DBATU?",
-        "Are there any clubs or organizations that I can join at DBATU?",
-        "What is the student community like at DBATU?"
-      ],
-      "responses": [
-        "DBATU has a vibrant campus life with a variety of clubs, organizations, and events for students to participate in. There are also many facilities on campus, such as a library, sports complex, and cafeteria, for students to enjoy. The student community at DBATU is friendly and welcoming."
-      ]
-    },
-    {
-      "tag": "admissions_process",
-      "patterns": [
-        "How do I apply to DBATU?",
-        "What are the admission requirements for DBATU?",
-        "What is the deadline to apply to DBATU?",
-        "Do I need to take an entrance exam to get into DBATU?"
-      ],
-      "responses": [
-        "The admissions process for different programs at DBATU varies. You can find detailed information about the admissions process for your desired program on the university's website. Here is link, https://dbatu.ac.in/admissions/"
-      ]
-    },
-    {
-      "tag": "accreditation",
-      "patterns": [
-        "Is DBATU accredited?",
-        "What accreditations does DBATU have?",
-        "Is DBATU a recognized university?"
-      ],
-      "responses": [
-        "Yes, DBATU is accredited by the National Assessment and Accreditation Council (NAAC) with an 'A' grade."
-      ]
-    },
-    {
-      "tag": "placement_cell",
-      "patterns": [
-        "Does DBATU have a placement cell?",
-        "How does DBATU help students with placements?",
-        "What is the role of the placement cell at DBATU?"
-      ],
-      "responses": [
-        "Yes, DBATU has a dedicated placement cell that helps students with career guidance, internships, and placements. The placement cell also organizes training programs, workshops, and campus recruitment drives."
-      ]
-    },
-    {
-      "tag": "placement_statistics",
-      "patterns": [
-        "What are the placement statistics at DBATU?",
-        "What percentage of students get placed at DBATU?",
-        "What is the average salary package at DBATU?"
-      ],
-      "responses": [
-        "The placement statistics at DBATU vary from year to year and depend on factors such as the student's academic record, skills, and the job market. However, in recent years, the average salary package has been around INR 4-5 lakhs per annum, and the placement rate has been around 80-90%."
-      ]
-    },
-    {
-      "tag": "internship_opportunities",
-      "patterns": [
-        "What internship opportunities are available to students at DBATU?",
-        "Does DBATU help students find internships?",
-        "How can I get an internship through DBATU?"
-      ],
-      "responses": [
-        "DBATU has tie-ups with various industries and organizations to provide students with internship opportunities. The university's placement cell also helps students find internships through campus recruitment drives and industry connections."
-      ]
-    },
-    {
-      "tag": "alumni_network",
-      "patterns": [
-        "Does DBATU have an alumni network?",
-        "How can I connect with DBATU alumni?",
-        "What is the role of the alumni network at DBATU?"
-      ],
-      "responses": [
-        "Yes, DBATU has an active alumni network that helps current students with career guidance, mentorship, and networking opportunities. The alumni network also organizes events, workshops, and seminars to facilitate interaction between alumni and students. Here is link: https://alumni.dbatu.ac.in/home.dz"
-      ]
-    }
-  ]
+    "intents": 
+        [
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "Hi",
+                    "Hello",
+                    "Is anyone there?",
+                    "Good day",
+                    "Hey",
+                    "Hola",
+                    "Namaste",
+                    "Good morning",
+                    "Good afternoon",
+                    "Good evening"
+
+                ],
+                "responses": [
+                    "Hello, Welcome to Dr. Babasaheb Ambedkar Technological University! How can I assist you today?",
+                    "Hi there, how can I assist you today?",
+                    "Hello, what can I do for you today?"
+                ]
+            },
+            {
+                "tag": "GetScholarshipInformation",
+                "patterns": [
+                    "Is there any special staff for explaining all government schemes related to scholarship and travelling scheme according to different castes?",
+                    "What scholarships are available for caste students?",
+                    "Are there any travel grants for students of caste?",
+                    "How can I apply for government scholarships for caste?",
+                    "Who can tell me about financial aid programs for caste students?",
+                    "Are there any grants specifically for students from marginalized communities?",
+                    "Can you provide information on scholarships available for minority students?",
+                    "Where can I find details about financial aid opportunities tailored to students from diverse backgrounds?",
+                    "Do you have resources for students seeking scholarships based on socioeconomic status?",
+                    "Is there assistance available for students facing financial hardships due to their background?"
+                ],
+                "responses": ["For scholarship and travel grant information, check with the Student Welfare Department. They can guide you on available programs and application procedures. You can also explore the university website or contact relevant government agencies."]
+            },
+            {
+                "tag": "GetPlacementInformation",
+                "patterns": [
+                    "Is there any opportunity to get a placement in Google, Flipkart, or Microsoft?",
+                    "Do these companies recruit from DBATU?",
+                    "Can I get a job at these companies after graduating from DBATU?",
+                    "Are there any recent success stories of DBATU graduates securing positions in renowned companies?",
+                    "Can you offer guidance on how to prepare for job opportunities at top tech firms post-graduation?",
+                    "Do you have information on alumni who have successfully transitioned to careers in companies like Google, Flipkart, or Microsoft?",
+                    "What steps can students take to enhance their chances of being noticed by leading companies?"
+                ],
+                "responses": ["While Google, Flipkart, and Microsoft haven't recently recruited on campus, DBATU alumni have secured positions there. Focus on skills, experience, portfolio building, and networking. You can also apply directly to these companies."]
+            },
+            {
+                "tag": "GetPlacementPackageInformation",
+                "patterns": [
+                    "Is there any awareness about the placement and package for lower branches?",
+                    "What are the placement opportunities for VLSI, chemical, petrochemical etc.?",
+                    "What is the average package for these branches?",
+                    "Is there data available on the salary packages offered to graduates from different branches?",
+                    "Can you provide insights into the placement trends for niche branches such as VLSI, chemical, and petrochemical engineering?",
+                    "Are there any industry-specific recruitment drives for particular branches?",
+                    "Could you share statistics on the employment rates and average salaries for graduates in various disciplines?"
+                ],
+                "responses": ["For placement and package details for specific branches, contact the Training and Placement Cell. They have data on recent placements, average packages, and recruiting companies."]
+            },
+            {
+                "tag": "GetAdmissionDocumentInformation",
+                "patterns": [
+                    "Can you provide documents required for admission?",
+                    "Where can I find the list of documents needed for admission?",
+                    "What documents do I need to submit to apply to DBATU?",
+                    "Are there any specific formats or guidelines for submitting admission documents?",
+                    "Do international applicants have different document requirements?",
+                    "Could you clarify if there are any additional documents needed for specific courses or programs?",
+                    "Is there a deadline for submitting the required admission documents?"
+                ],
+                "responses": ["The university website's Admissions section lists required documents for each program. Check there for specific formats and deadlines. International applicants may have different requirements.\n\n https://dbatu.ac.in/admissions/"]
+            },
+            {
+                "tag": "GetUniversityInformation",
+                "patterns": [
+                    "Why DBATU?",
+                    "What are the advantages of studying at DBATU?",
+                    "What makes DBATU a good university?",
+                    "Can you provide testimonials from current students or alumni about their experiences at DBATU?",
+                    "Are there any notable research projects or collaborations that distinguish DBATU from other universities?",
+                    "Could you elaborate on the facilities available for student support services at DBATU?",
+                    "What initiatives does DBATU undertake to promote diversity and inclusion within its campus community?"
+                ],
+                "responses": ["DBATU is known for its strong academics, experienced faculty, good infrastructure, affordable fees, and research focus. It also offers a vibrant student life. Ultimately, the best university for you depends on your individual needs and goals."]
+            },
+        
+            {
+                "tag":"goodbye",
+                "patterns": [
+                    "Bye",
+                    "See you later",
+                    "Goodbye",
+                    "I'm off"
+                ],
+                "responses": [
+                    "Goodbye! Have a great day!",
+                    "See you later!",
+                    "Bye! Come back soon!"
+                ]
+            },
+            {
+              "tag": "location",
+              "patterns": [
+                "Where is the university located?",
+                "Where is DBATU?",
+                "In which city is DBATU situated?"
+              ],
+              "responses": [
+                "DBATU is located in Lonere, Raigad district, Maharashtra, India."
+              ]
+            },
+            {
+              "tag": "courses",
+              "patterns": [
+                "What courses does the university offer?",
+                "What programs are available at DBATU?",
+                "Can I study engineering at DBATU?"
+              ],
+              "responses": [
+                "DBATU offers a wide range of undergraduate, postgraduate, and doctoral programs in various disciplines, including engineering, technology, pharmacy, architecture, hotel management, and catering technology."
+              ]
+            },
+            {
+              "tag": "admission",
+              "patterns": [
+                "How can I apply for admission?",
+                "What is the admission procedure for DBATU?",
+                "How do I get into DBATU?"
+              ],
+              "responses": [
+                "The admission process for different programs varies. Please visit the university's website for detailed information on how to apply for admission to your desired program."
+              ]
+            },
+            {
+              "tag": "fees",
+              "patterns": [
+                "What is the fee for the courses?",
+                "How much does it cost to study at DBATU?",
+                "Are there scholarships available?"
+              ],
+              "responses": [
+                "The fee for the courses varies depending on the program and the category of the student. You can find the detailed fee structure on the university's website."
+              ]
+            },
+            {
+              "tag": "hostel",
+              "patterns": [
+                "Does the university offer hostels?",
+                "Is there accommodation available on campus?",
+                "Can I stay in a hostel at DBATU?"
+              ],
+              "responses": [
+                "Yes, DBATU offers hostel accommodation for students enrolled in Bachelor of Technology and Diploma in Engineering programs."
+              ]
+            },
+            {
+                "tag": "head_of_university",
+                "patterns": [
+                "Who is the head of the university?",
+                "Who is the Vice-Chancellor of DBATU?"
+                ],
+                "responses": [
+                "The head of the university is the Vice-Chancellor. As of October 27, 2023, the Vice-Chancellor of DBATU is Dr. Karbhari V Kale."
+                ]
+            },
+            {
+                "tag": "library",
+                "patterns": [
+                "Does the university have a library?",
+                "Is there a digital library at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU has a well-equipped library with a rich collection of books, journals, and other reference materials. The library also has a digital library with access to a variety of e-books, e-journals, and other online resources. You can find more information here: https://dbatu.ac.in/university-library/"
+                ]
+            },
+            {
+                "tag": "sports",
+                "patterns": [
+                "What sports does the university offer?",
+                "Can I play cricket at DBATU?"
+                ],
+                "responses": [
+                "DBATU has facilities for a variety of sports, including cricket, football, basketball, volleyball, badminton, table tennis, and athletics. You can find more information here: https://dbatu.ac.in/university-sports/"
+                ]
+            },
+            {
+                "tag": "canteen",
+                "patterns": [
+                "Does the university have a canteen?",
+                "Is there a cafeteria at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU has a cafeteria that provides healthy and tasty meals to students, faculty, and staff."
+                ]
+            },
+            {
+                "tag": "contact_information",
+                "patterns": [
+                "What is the university's contact number?",
+                "What is the university's email address?",
+                "Does the university have a website?"
+                ],
+                "responses": [
+                "You can find the university's contact information, including its phone number, email address, and website, on its website: https://dbatu.ac.in/"
+                ]
+            },
+            {
+                "tag": "scholarships",
+                "patterns": [
+                "Does the university offer scholarships?",
+                "How can I get a scholarship at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU offers a variety of scholarships to students based on merit, need, and other criteria. You can find more information here: https://dbatu.ac.in/student-scholarships/"
+                ]
+            },
+            {
+                "tag": "ranking",
+                "patterns": [
+                "What is the university's ranking?",
+                "How is DBATU ranked?"
+                ],
+                "responses": [
+                "DBATU has been ranked by various organizations, including the National Institutional Ranking Framework (NIRF) and India Today. You can find the university's latest rankings on its website."
+                ]
+            },
+            {
+                "tag": "placement_cell",
+                "patterns": [
+                "Does the university have a placement cell?",
+                "Does DBATU help students find jobs?"
+                ],
+                "responses": [
+                "Yes, DBATU has a Training and Placement Cell that helps students find jobs after graduation. You can find more information here: https://dbatu.ac.in/training-and-placement/"
+                ]
+            },
+            {
+                "tag": "history",
+                "patterns": [
+                "What is the university's history?",
+                "When was DBATU established?"
+                ],
+                "responses": [
+                "DBATU was established in 1989 as a unitary university and was converted to an affiliating technological university in 2016."
+                ]
+            },
+            {
+                "tag": "research_center",
+                "patterns": [
+                "Does the university have a research center?",
+                "Does DBATU conduct research?"
+                ],
+                "responses": [
+                "Yes, DBATU has a dedicated Research and Innovation department that promotes and facilitates research activities at the university. You can find more information here: https://dbatu.ac.in/research/"
+                ]
+            },
+            {
+                "tag": "mission",
+                "patterns": [
+                "What is the university's mission?",
+                "What are DBATU's goals?"
+                ],
+                "responses": [
+                "DBATU's mission is to provide quality technical education, research, and development services to meet the needs of industry, business, the service sector, and society at large."
+                ]
+            },
+            {
+                "tag": "student_council",
+                "patterns": [
+                "Does the university have a student council?",
+                "How can I get involved in the student council at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU has a Students' Council that represents the interests of the students and organizes various activities on campus."
+                ]
+            },
+            {
+                "tag": "attendance_policy",
+                "patterns": [
+                "What is the university's attendance policy?",
+                "Do I need to attend all my classes at DBATU?"
+                ],
+                "responses": [
+                "DBATU has a strict attendance policy. Students are required to maintain a minimum attendance of 75% in all classes."
+                ]
+            },
+            {
+                "tag": "medical_center",
+                "patterns": [
+                "Does the university have a medical center?",
+                "Is there a health center at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU has a Health Care Center that provides medical services to students, faculty, and staff. You can find more information here: https://dbatu.ac.in/health-care-center/"
+                ]
+            },
+            {
+                "tag": "exam_schedule",
+                "patterns": [
+                "What is the university's exam schedule?",
+                "When are my exams at DBATU?"
+                ],
+                "responses": [
+                "The university's exam schedule is available on its website: https://dbatu.ac.in/exam-section1/"
+                ]
+            },
+            {
+                "tag": "computer_lab",
+                "patterns": [
+                "Does the university have a computer lab?",
+                "Can I use computers at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU has a computer center with 100 PCs for students and high-end computational facilities for research."
+                ]
+            },
+            {
+                "tag": "grading_system",
+                "patterns": [
+                "What is the university's grading system?",
+                "How are grades calculated at DBATU?"
+                ],
+                "responses": [
+                "DBATU follows a credit-based grading system. The performance of students is documented by letter grades and grade points."
+                ]
+            },
+            {
+                "tag": "alumni_association",
+                "patterns": [
+                "Does the university have an alumni association?",
+                "How can I stay connected with DBATU after I graduate?"
+                ],
+                "responses": [
+                "Yes, DBATU has an Alumni Association that helps alumni stay connected with the university and each other. You can find more information here: https://alumni.dbatu.ac.in/home.dz"
+                ]
+            },
+            {
+                "tag": "dress_code",
+                "patterns": [
+                "What is the university's dress code?",
+                "What should I wear to class at DBATU?"
+                ],
+                "responses": [
+                "DBATU has a formal dress code for students."
+                ]
+            },
+            {
+                "tag": "academic_calendar",
+                "patterns": [
+                "What is the university's academic calendar?",
+                "When does the semester start at DBATU?"
+                ],
+                "responses": [
+                "The university's academic calendar is available on its website: https://dbatu.ac.in/academic-calendar/"
+                ]
+            },
+            {
+                "tag": "science_lab",
+                "patterns": [
+                "Does the university have a science lab?",
+                "Can I use the science labs at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU has well-equipped science labs for various disciplines."
+                ]
+            },
+            {
+                "tag": "cultural_fest",
+                "patterns": [
+                "Does the university have a cultural fest?",
+                "What events are held at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU has various events, including cultural fests. You can find more information here: https://dbatu.ac.in/events/"
+                ]
+            },
+            {
+                "tag": "student_clubs",
+                "patterns": [
+                "Does the university have student clubs?",
+                "How can I join a club at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU has a variety of student clubs and organizations that cater to different interests and hobbies."
+                ]
+            },
+            {
+                "tag": "faculty",
+                "patterns": [
+                "Who are the faculty members at DBATU?",
+                "Can I see the list of professors at the university?"
+                ],
+                "responses": [
+                "You can find the list of faculty members at DBATU on the university's website: https://dbatu.ac.in/departments/"
+                ]
+            },
+            {
+                "tag": "student_portal",
+                "patterns": [
+                "Does the university have a student portal?",
+                "How can I access my student account at DBATU?"
+                ],
+                "responses": [
+                "Yes, DBATU has a student portal where students can access their academic records, course materials, and other information. You can find more information here: https://dbatu.ac.in/student-portal/"
+                ]
+            },
+            {
+                "tag": "industry_collaboration",
+                "patterns": [
+                "Does the university collaborate with industries?",
+                "Does DBATU have industry partnerships?"
+                ],
+                "responses": [
+                "Yes, DBATU has collaborations with various industries and organizations to provide students with practical exposure and opportunities for internships and placements. Here is link to the page: https://dbatu.ac.in/training-and-placement/"
+                ]
+            },
+            {
+                "tag": "international_students",
+                "patterns": [
+                "Does the university accept international students?",
+                "How can I apply as an international student?"
+                ],
+                "responses": [
+                "Yes, DBATU welcomes international students and has a dedicated office to assist them with the admission process, visa requirements, and other formalities."
+                ]
+            },
+            
+            {
+                "tag": "degree_difference",
+                "patterns": [
+                "What is the difference between a bachelor's degree and a master's degree?",
+                "What is the difference between an undergraduate degree and a postgraduate degree?",
+                "What's the difference between a bachelor's and a master's?",
+                "Is a master's degree harder than a bachelor's degree?"
+                ],
+                "responses": [
+                "A bachelor's degree is typically a four-year undergraduate degree, while a master's degree is a two-year postgraduate degree. Master's degrees are more specialized than bachelor's degrees and require students to have a strong foundation in their chosen field."
+                ]
+            },
+            {
+                "tag": "research_vs_professional",
+                "patterns": [
+                "What is the difference between a research degree and a professional degree?",
+                "Should I get a Ph.D. or an MBA?",
+                "What's the difference between a research degree and a professional degree?",
+                "Is a research degree better than a professional degree?"
+                ],
+                "responses": [
+                "A research degree, such as a Ph.D., focuses on developing research skills and contributing to knowledge in a particular field. A professional degree, such as an MBA, focuses on developing practical skills and knowledge for a specific career."
+                ]
+            },
+            {
+                "tag": "credit_system",
+                "patterns": [
+                "What is the credit system and mode of evaluation followed at DBATU?",
+                "How are courses evaluated at DBATU?",
+                "What is the CBCS system?",
+                "How does DBATU assess students?"
+                ],
+                "responses": [
+                "DBATU follows a choice-based credit system (CBCS) with a mix of formative and summative assessment methods."
+                ]
+            },
+            {
+                "tag": "computer_engineering_courses",
+                "patterns": [
+                "What are the different types of courses offered in the Computer Engineering program at DBATU?",
+                "What will I study in the Computer Engineering program at DBATU?",
+                "What courses are available to Computer Engineering students at DBATU?",
+                "What are the core courses in the Computer Engineering program at DBATU?"
+                ],
+                "responses": [
+                "The Computer Engineering program at DBATU offers a variety of courses, including core courses, elective courses, and laboratory courses."
+                ]
+            },
+            {
+                "tag": "theory_practical_ratio",
+                "patterns": [
+                "What is the ratio of theory to practical courses in the Computer Engineering program at DBATU?",
+                "How much practical experience will I get in the Computer Engineering program at DBATU?",
+                "Is the Computer Engineering program at DBATU more theoretical or practical?",
+                "How much hands-on experience will I get in the Computer Engineering program at DBATU?"
+                ],
+                "responses": [
+                "The ratio of theory to practical courses in the Computer Engineering program at DBATU is approximately 70:30."
+                ]
+            },
+            {
+                "tag": "continuous_assessment",
+                "patterns": [
+                "What are the different methods of continuous assessment used in the Computer Engineering program at DBATU?",
+                "How am I assessed in the Computer Engineering program at DBATU?",
+                "What are some examples of continuous assessment methods used at DBATU?",
+                "How does DBATU ensure continuous learning?"
+                ],
+                "responses": [
+                "The different methods of continuous assessment used in the Computer Engineering program at DBATU include quizzes, assignments, mini-projects, and internships."
+                ]
+            },
+            {
+                "tag": "passing_percentage",
+                "patterns": [
+                "What is the passing percentage for a course in the Computer Engineering program at DBATU?",
+                "What do I need to do to pass a course at DBATU?",
+                "What is the minimum score I need to pass a course at DBATU?",
+                "How do I pass a subject head at DBATU?"
+                ],
+                "responses": [
+                "To pass a course in the Computer Engineering program at DBATU, a student must obtain at least 40% marks in the end-semester examination AND 40% of the total marks for the subject head."
+                ]
+            },
+            {
+                "tag": "minimum_cgpa",
+                "patterns": [
+                "What is the minimum CGPA required to graduate from the Computer Engineering program at DBATU?",
+                "What CGPA do I need to get to graduate from DBATU?",
+                "What is the minimum GPA requirement at DBATU?",
+                "Do I need a high CGPA to graduate from DBATU?"
+                ],
+                "responses": [
+                "The minimum CGPA required to graduate from the Computer Engineering program at DBATU is 6.00."
+                ]
+            },
+            {
+                "tag": "research_projects",
+                "patterns": [
+                "What are the different types of research projects undertaken by the faculty in the Computer Engineering department at DBATU?",
+                "What research is being done in the Computer Engineering department at DBATU?",
+                "What are some examples of research projects in the Computer Engineering department at DBATU?",
+                "Can I participate in research projects at DBATU?"
+                ],
+                "responses": [
+                "The faculty in the Computer Engineering department at DBATU undertakes research in a variety of areas, including artificial intelligence, machine learning, data science, big data analysis, soft computing, cloud computing, artificial neural networks, VLSI design and technology, and more."
+                ]
+            },
+            {
+                "tag": "student_clubs",
+                "patterns": [
+                "What are the different student clubs and organizations associated with the Computer Engineering department at DBATU?",
+                "Are there any clubs for Computer Engineering students at DBATU?",
+                "What extracurricular activities are available for Computer Engineering students at DBATU?",
+                "How can I get involved in the Computer Engineering department at DBATU?"
+                ],
+                "responses": [
+                "The Computer Engineering department at DBATU has a number of student clubs and organizations, including the Association of Computer Engineering Students (ACES) and a local CodeChef chapter for competitive programming."
+                ]
+            },
+            {
+                "tag": "future_plans",
+                "patterns": [
+                "What are the future plans of the Computer Engineering department at DBATU?",
+                "What is the Computer Engineering department at DBATU planning for the future?",
+                "What are the goals of the Computer Engineering department at DBATU?",
+                "How is the Computer Engineering department at DBATU improving?"
+                ],
+                "responses": [
+                "The future plans of the Computer Engineering department at DBATU include aligning curricular activities with NEP 2020 guidelines, achieving 100% placement for B.Tech. (Computer Engineering) students before 2025, doubling the number of Ph.D. students on roll before 2025, establishing research collaborations with foreign universities, developing a culture of research, innovation, and entrepreneurship among students, and adopting cloud-based platforms for student support."
+                ]
+            },
+            {
+                "tag": "program_duration",
+                "patterns": [
+                "What is the duration of the Computer Engineering program at DBATU?",
+                "How long does it take to complete the Computer Engineering program at DBATU?",
+                "How many years is the Computer Engineering program at DBATU?",
+                "Is the Computer Engineering program at DBATU a long program?"
+                ],
+                "responses": [
+                "The duration of the B.Tech. program in Computer Engineering at DBATU is four years."
+                ]
+            },
+            {
+                "tag": "faculty_student_ratio",
+                "patterns": [
+                "What is the faculty-to-student ratio in the Computer Engineering department at DBATU?",
+                "How many students are there per faculty member in the Computer Engineering department at DBATU?",
+                "Is the class size small in the Computer Engineering department at DBATU?",
+                "Will I get individual attention from faculty members in the Computer Engineering department at DBATU?"
+                ],
+                "responses": [
+                "The faculty-to-student ratio in the Computer Engineering department at DBATU varies from year to year, but it is typically around 1:25."
+                ]
+            },
+            {
+                "tag": "scholarships_available",
+                "patterns": [
+                "What are the different types of scholarships available to students in the Computer Engineering program at DBATU?",
+                "Can I get a scholarship to study Computer Engineering at DBATU?",
+                "Are there any financial aid options for Computer Engineering students at DBATU?",
+                "How can I afford to study Computer Engineering at DBATU?"
+                ],
+                "responses": [
+                "DBATU offers a variety of scholarships to students based on merit, need, and other criteria. Some of the scholarships available to students in the Computer Engineering program include Government of India scholarships, Government of Maharashtra scholarships, University scholarships, and Industry-sponsored scholarships."
+                ]
+            },
+            {
+                "tag": "average_salary",
+                "patterns": [
+                "What is the average salary package for graduates of the Computer Engineering program at DBATU?",
+                "How much can I expect to earn after graduating from the Computer Engineering program at DBATU?",
+                "Do Computer Engineering graduates from DBATU get good jobs?",
+                "Is the Computer Engineering program at DBATU worth it?"
+                ],
+                "responses": [
+                "The average salary package for graduates of the Computer Engineering program at DBATU varies from year to year and depends on factors such as the student's academic record, skills, and the job market. However, in recent years, the average salary package has been around INR 4-5 lakhs per annum."
+                ]
+            },
+            {
+                "tag": "career_opportunities",
+                "patterns": [
+                "What are the different career opportunities available to graduates of the Computer Engineering program at DBATU?",
+                "What kind of jobs can I get with a Computer Engineering degree from DBATU?",
+                "What are some popular career paths for Computer Engineering graduates?",
+                "Is Computer Engineering a good major?"
+                ],
+                "responses": [
+                "Graduates of the Computer Engineering program at DBATU have a wide range of career opportunities available to them, including Software Engineer, Hardware Engineer, Network Engineer, Data Scientist, Machine Learning Engineer, Artificial Intelligence Engineer, Web Developer, Mobile App Developer, and many more."
+                ]
+            },
+            {
+                "tag": "research_facilities",
+                "patterns": [
+                "What are the different research facilities available to students in the Computer Engineering department at DBATU?",
+                "Can I do research in the Computer Engineering department at DBATU?",
+                "What kind of research equipment is available at DBATU?",
+                "Does DBATU have good research facilities?"
+                ],
+                "responses": [
+                "The Computer Engineering department at DBATU has a number of research facilities available to students, including high-end computational facilities, a central fabrication facility, state-of-the-art laboratories, and access to research journals and proceedings through the University library."
+                ]
+            },
+            {
+                "tag": "industry_partnerships",
+                "patterns": [
+                "What are the different industry partnerships that the Computer Engineering department at DBATU has?",
+                "Does the Computer Engineering department at DBATU have any industry connections?",
+                "Does DBATU work with any companies?",
+                "How does DBATU prepare students for the workforce?"
+                ],
+                "responses": [
+                "The Computer Engineering department at DBATU has partnerships with a number of industries, including ATA Freight, Autodesk, NASSCOM, MNNIT Allahabad, and VJTI."
+                ]
+            },
+            {
+                "tag": "btech_mtech_difference",
+                "patterns": [
+                "What is the difference between the B.Tech. and M.Tech. programs in Computer Engineering at DBATU?",
+                "Should I get a B.Tech. or an M.Tech. in Computer Engineering from DBATU?",
+                "What is the difference between an undergraduate and a postgraduate degree in Computer Engineering at DBATU?",
+                "Is an M.Tech. degree necessary after a B.Tech. degree?"
+                ],
+                "responses": [
+                "The B.Tech. program in Computer Engineering is a four-year undergraduate program that provides students with a strong foundation in the fundamentals of computer science and engineering. The M.Tech. program in Computer Engineering is a two-year postgraduate program that is more specialized and research-oriented. M.Tech. students are required to complete a research project and dissertation."
+                ]
+            },
+            {
+                "tag": "mtech_admission",
+                "patterns": [
+                "What are the admission requirements for the M.Tech. program in Computer Engineering at DBATU?",
+                "How can I get into the M.Tech. program in Computer Engineering at DBATU?",
+                "What are the eligibility criteria for the M.Tech. program in Computer Engineering at DBATU?",
+                "Do I need to take the GATE exam to get into the M.Tech. program in Computer Engineering at DBATU?"
+                ],
+                "responses": [
+                "To be eligible for admission to the M.Tech. program in Computer Engineering at DBATU, you must have a Bachelor's degree in Engineering or Technology in a relevant field from a recognized university, have obtained at least 60% marks (55% for candidates belonging to reserved categories) in the qualifying examination, and qualify in the GATE examination or the university's in-house entrance test."
+                ]
+            },
+            {
+                "tag": "head_of_department",
+                "patterns": [
+                "Who is the Head of the Computer Engineering department at DBATU?",
+                "Who is in charge of the Computer Engineering department at DBATU?",
+                "Who runs the Computer Engineering department at DBATU?",
+                "Who can I talk to about the Computer Engineering department at DBATU?"
+                ],
+                "responses": [
+                "The Head of the Computer Engineering department at DBATU is Dr. A. W. Kiwelekar."
+                ]
+            },
+            {
+                "tag": "faculty_members",
+                "patterns": [
+                "Who are the other faculty members in the Computer Engineering department at DBATU?",
+                "Who teaches in the Computer Engineering department at DBATU?",
+                "Who are the professors in the Computer Engineering department at DBATU?",
+                "Can you tell me more about the faculty in the Computer Engineering department at DBATU?"
+                ],
+                "responses": [
+                "The other faculty members in the Computer Engineering department at DBATU include Dr. L. D. Netak, Dr. M. D. Laddha, Dr. H. A. Akarte, Dr. I. R. A. Jhetam, and many more."
+                ]
+            },
+            {
+                "tag": "faculty_qualifications",
+                "patterns": [
+                "What are the qualifications of the faculty members in the Computer Engineering department at DBATU?",
+                "Are the faculty members in the Computer Engineering department at DBATU qualified?",
+                "Do the faculty members in the Computer Engineering department at DBATU have Ph.D.s?",
+                "Are the professors at DBATU experts in their fields?"
+                ],
+                "responses": [
+                "The faculty members in the Computer Engineering department at DBATU are highly qualified, with most of them holding Ph.D. degrees from reputed institutions."
+                ]
+            },
+            {
+                "tag": "faculty_research",
+                "patterns": [
+                "What are the research interests of the faculty members in the Computer Engineering department at DBATU?",
+                "What kind of research do the faculty members in the Computer Engineering department at DBATU do?",
+                "What are the faculty members in the Computer Engineering department at DBATU researching?",
+                "Can I collaborate with faculty members on research projects at DBATU?"
+                ],
+                "responses": [
+                "The faculty members in the Computer Engineering department at DBATU have a wide range of research interests, including artificial intelligence, machine learning, data science, big data analysis, soft computing, cloud computing, artificial neural networks, VLSI design and technology, and more."
+                ]
+            },
+            {
+                "tag": "teaching_methods",
+                "patterns": [
+                "What are the teaching methods used by the faculty members in the Computer Engineering department at DBATU?",
+                "How do the faculty members in the Computer Engineering department at DBATU teach?",
+                "What kind of teaching styles do the professors at DBATU use?",
+                "Does DBATU use online learning?"
+                ],
+                "responses": [
+                "The faculty members in the Computer Engineering department at DBATU use a variety of teaching methods, including traditional classroom teaching, online teaching, and blended learning."
+                ]
+            },
+            {
+                "tag": "faculty_interaction",
+                "patterns": [
+                "How do the faculty members in the Computer Engineering department at DBATU interact with students?",
+                "Can I talk to the faculty members in the Computer Engineering department at DBATU outside of class?",
+                "Are the faculty members at DBATU approachable?",
+                "How can I get help from faculty members at DBATU?"
+                ],
+                "responses": [
+                "The faculty members in the Computer Engineering department at DBATU interact with students through lectures, tutorials, practical sessions, research projects, and are available to meet with students outside of the classroom to discuss their academic progress and career goals."
+                ]
+            },
+            {
+                "tag": "outside_interaction",
+                "patterns": [
+                "What are the opportunities for students to interact with faculty members outside of the classroom in the Computer Engineering department at DBATU?",
+                "How can I get to know the faculty members in the Computer Engineering department at DBATU better?",
+                "Are there any research opportunities for students in the Computer Engineering department at DBATU?",
+                "How can I get involved in research at DBATU?"
+                ],
+                "responses": [
+                "There are a number of opportunities for students to interact with faculty members outside of the classroom in the Computer Engineering department at DBATU, including research projects, student clubs and organizations, office hours, and seminars and workshops."
+                ]
+            },
+            {
+                "tag": "registrar",
+                "patterns": [
+                "Who is the Registrar of DBATU?",
+                "Who is the administrative head of DBATU?"
+                ],
+                "responses": [
+                "As of January 2024, the Registrar of DBATU is Dr. A. W. Kiwelekar."
+                ]
+            },
+            {
+                "tag": "controller_email",
+                "patterns": [
+                "What is the email address of the Controller of Examination (I/c)?",
+                "How can I contact the Controller of Examination at DBATU?"
+                ],
+                "responses": [
+                "The email address of the Controller of Examination (I/c) at DBATU is coe@dbatu.ac.in."
+                ]
+            },
+            {
+                "tag": "in_semester_weightage",
+                "patterns": [
+                "What is the weightage of in-semester assessment in the overall evaluation?",
+                "How much do my in-semester grades matter at DBATU?"
+                ],
+                "responses": [
+                "The weightage of in-semester assessment in the overall evaluation varies depending on the course. For theory courses, the weightage is typically 40% (20% for continuous assessment and 20% for the mid-semester exam). For practical courses, the weightage of continuous assessment is typically 60%."
+                ]
+            },
+            {
+                "tag": "minimum_grade",
+                "patterns": [
+                "What is the minimum grade required to pass a subject head?",
+                "What grade do I need to get to pass a course at DBATU?"
+                ],
+                "responses": [
+                "To pass a subject head at DBATU, a student must obtain at least 40% marks in the end-semester examination AND 40% of the total marks for the subject head. This corresponds to a letter grade of EE or higher."
+                ]
+            },
+            {
+                "tag": "xx_grade",
+                "patterns": [
+                "What does the XX grade indicate?",
+                "What happens if I get an XX grade at DBATU?"
+                ],
+                "responses": [
+                "The XX grade at DBATU indicates that a student has been debarred from appearing for the examination in that subject. This grade is typically awarded if a student does not meet the minimum attendance requirements, has bad or incomplete in-semester records, or indulges in misconduct."
+                ]
+            },
+            {
+                "tag": "sgpa_calculation",
+                "patterns": [
+                "How is SGPA calculated?",
+                "How does DBATU calculate my SGPA?"
+                ],
+                "responses": [
+                "The Semester Grade Point Average (SGPA) is calculated as a weighted average of the grade points obtained in all the courses taken by a student in a semester. The formula for calculating SGPA is: SGPA = Σ(ci * gi) / Σci, where ci is the number of credits allotted to a particular subject, and gi is the grade point awarded to the student for the subject."
+                ]
+            },
+            {
+                "tag": "class_on_certificate",
+                "patterns": [
+                "Is the class mentioned on the degree certificate?",
+                "Will my degree certificate say what class I got?"
+                ],
+                "responses": [
+                "No, the class is not mentioned on the degree certificate. However, it is mentioned in the semester grade report."
+                ]
+            },
+            {
+                "tag": "sports_facilities",
+                "patterns": [
+                "What are the facilities available in the Sports Department?",
+                "What sports can I play at DBATU?"
+                ],
+                "responses": [
+                "The Sports Department at DBATU has facilities for a variety of sports, including cricket, football, basketball, volleyball, badminton, table tennis, and athletics. The department also has a well-equipped gymnasium, a sports ground, and a swimming pool (under construction). Here is link, https://dbatu.ac.in/university-sports/"
+                ]
+            },
+            {
+                "tag": "research_innovation_aim",
+                "patterns": [
+                "What is the aim of the Research and Innovation department?",
+                "What does the Research and Innovation department at DBATU do?"
+                ],
+                "responses": [
+                "The aim of the Research and Innovation department at DBATU is to promote and facilitate research and innovation activities at the university."
+                ]
+            },
+            {
+                "tag": "library_collection",
+                "patterns": [
+                "How many books are in the University Library collection?",
+                "How big is the library at DBATU?"
+                ],
+                "responses": [
+                "The University Library at DBATU has a collection of over 100,000 volumes and titles."
+                ]
+            },
+            {
+                "tag": "innovation_center",
+                "patterns": [
+                "What is the name of the Innovation and Incubation Centre at DBATU?",
+                "Does DBATU have an innovation center?"
+                ],
+                "responses": [
+                "The Innovation and Incubation Centre at DBATU is called the DBATU Forum of Innovation Incubation and Enterprise (FIIE). Here is link, https://dbatuiiec.com/"
+                ]
+            },
+            {
+                "tag": "hostel_availability",
+                "patterns": [
+                "How many hostels are available for students?",
+                "Can I live on campus at DBATU?"
+                ],
+                "responses": [
+                "DBATU has a total of five hostels, two for boys and three for girls. Here is link, https://dbatu.ac.in/university-hostels/"
+                ]
+            },
+            {
+                "tag": "hostel_facilities",
+                "patterns": [
+                "What facilities are available in the hostels?",
+                "What amenities do the hostels at DBATU have?"
+                ],
+                "responses": [
+                "The hostels at DBATU are equipped with modern amenities, including spacious rooms, mess facilities, common rooms, and 24/7 security."
+                ]
+            },
+            {
+                "tag": "hostel_admission",
+                "patterns": [
+                "How can I apply for hostel accommodation?",
+                "What is the process for getting a hostel room at DBATU?"
+                ],
+                "responses": [
+                "The process for applying for hostel accommodation at DBATU is available on the university's website. Here is link, https://dbatu.ac.in/university-hostels/"
+                ]
+            },
+            {
+                "tag": "hostel_rules",
+                "patterns": [
+                "What are the rules and regulations for students living in the hostels?",
+                "What are the hostel rules at DBATU?"
+                ],
+                "responses": [
+                "The rules and regulations for students living in the hostels at DBATU are available on the university's website. Here is link, https://dbatu.ac.in/university-hostels/"
+                ]
+            },
+            {
+                "tag": "hostel_warden",
+                "patterns": [
+                "Who is the warden of the hostels at DBATU?",
+                "Who is in charge of the hostels at DBATU?"
+                ],
+                "responses": [
+                "The wardens of the hostels at DBATU are responsible for the overall management and administration of the hostels. Here is link, https://dbatu.ac.in/university-hostels/"
+                ]
+            },
+            {
+                "tag": "hostel_mess",
+                "patterns": [
+                "What is the quality of the food in the hostels?",
+                "How is the mess food at DBATU?"
+                ],
+                "responses": [
+                "The quality of the food in the hostels at DBATU is good, and the mess facilities are managed by experienced staff."
+                ]
+            },
+            {
+                "tag": "hostel_security",
+                "patterns": [
+                "How is the security in the hostels?",
+                "Are the hostels at DBATU safe?"
+                ],
+                "responses": [
+                "The hostels at DBATU have 24/7 security to ensure the safety and well-being of the students."
+                ]
+            },
+            
+            {
+                "tag": "fees_financial_aid",
+                "patterns": [
+                "How much does it cost to study at DBATU?",
+                "Are there any scholarships available?",
+                "What kind of financial aid does DBATU offer?",
+                "Can I afford to study at DBATU?"
+                ],
+                "responses": [
+                "The fees for different programs at DBATU vary. You can find the detailed fee structure on the university's website. DBATU also offers a variety of scholarships and financial aid options to students. You can find more information about scholarships and financial aid on the university's website. Here is link: https://dbatu.ac.in/student-scholarships/"
+                ]
+            },
+            {
+                "tag": "campus_life",
+                "patterns": [
+                "What is campus life like at DBATU?",
+                "What are some things to do on campus at DBATU?",
+                "Are there any clubs or organizations that I can join at DBATU?",
+                "What is the student community like at DBATU?"
+                ],
+                "responses": [
+                "DBATU has a vibrant campus life with a variety of clubs, organizations, and events for students to participate in. There are also many facilities on campus, such as a library, sports complex, and cafeteria, for students to enjoy. The student community at DBATU is friendly and welcoming."
+                ]
+            },
+            {
+                "tag": "admissions_process",
+                "patterns": [
+                "How do I apply to DBATU?",
+                "What are the admission requirements for DBATU?",
+                "What is the deadline to apply to DBATU?",
+                "Do I need to take an entrance exam to get into DBATU?"
+                ],
+                "responses": [
+                "The admissions process for different programs at DBATU varies. You can find detailed information about the admissions process for your desired program on the university's website. Here is link, https://dbatu.ac.in/admissions/"
+                ]
+            },
+            {
+                "tag": "faculty_qualifications",
+                "patterns": [
+                "What are the qualifications of the faculty members at DBATU?",
+                "Are the faculty members at DBATU qualified?",
+                "Do the faculty members at DBATU have Ph.D.s?",
+                "Are the professors at DBATU experts in their fields?"
+                ],
+                "responses": [
+                "The faculty members at DBATU are highly qualified, with most of them holding Ph.D. degrees from reputed institutions."
+                ]
+            },
+            {
+                "tag": "faculty_research",
+                "patterns": [
+                "What kind of research do the faculty members at DBATU do?",
+                "What are the research interests of the faculty members at DBATU?",
+                "What are the faculty members at DBATU researching?",
+                "Can I collaborate with faculty members on research projects at DBATU?"
+                ],
+                "responses": [
+                "The faculty members at DBATU have a wide range of research interests, including artificial intelligence, machine learning, data science, big data analysis, soft computing, cloud computing, artificial neural networks, VLSI design and technology, and more."
+                ]
+            },
+            {
+                "tag": "teaching_methods",
+                "patterns": [
+                "What teaching methods do the faculty members at DBATU use?",
+                "How do the faculty members at DBATU teach?",
+                "What kind of teaching styles do the professors at DBATU use?",
+                "Does DBATU use online learning?"
+                ],
+                "responses": [
+                "The faculty members at DBATU use a variety of teaching methods, including traditional classroom teaching, online teaching, and blended learning."
+                ]
+            },
+            {
+                "tag": "faculty_interaction",
+                "patterns": [
+                "How do the faculty members at DBATU interact with students?",
+                "Can I talk to the faculty members at DBATU outside of class?",
+                "Are the faculty members at DBATU approachable?",
+                "How can I get help from faculty members at DBATU?"
+                ],
+                "responses": [
+                "The faculty members at DBATU interact with students through lectures, tutorials, practical sessions, research projects, and are available to meet with students outside of the classroom to discuss their academic progress and career goals."
+                ]
+            },
+            {
+                "tag": "outside_interaction",
+                "patterns": [
+                "What are the opportunities for students to interact with faculty members outside of the classroom at DBATU?",
+                "How can I get to know the faculty members at DBATU better?",
+                "Are there any research opportunities for students at DBATU?",
+                "How can I get involved in research at DBATU?"
+                ],
+                "responses": [
+                "There are a number of opportunities for students to interact with faculty members outside of the classroom at DBATU, including research projects, student clubs and organizations, office hours, and seminars and workshops."
+                ]
+            },
+            {
+                "tag": "accreditation",
+                "patterns": [
+                  "Is DBATU accredited?",
+                  "What accreditations does DBATU have?",
+                  "Is DBATU a recognized university?"
+                ],
+                "responses": [
+                  "Yes, DBATU is accredited by the National Assessment and Accreditation Council (NAAC) with an 'A' grade."
+                ]
+              },
+              {
+                "tag": "placement_cell",
+                "patterns": [
+                  "Does DBATU have a placement cell?",
+                  "How does DBATU help students with placements?",
+                  "What is the role of the placement cell at DBATU?"
+                ],
+                "responses": [
+                  "Yes, DBATU has a dedicated placement cell that helps students with career guidance, internships, and placements. The placement cell also organizes training programs, workshops, and campus recruitment drives."
+                ]
+              },
+              {
+                "tag": "placement_statistics",
+                "patterns": [
+                  "What are the placement statistics at DBATU?",
+                  "What percentage of students get placed at DBATU?",
+                  "What is the average salary package at DBATU?"
+                ],
+                "responses": [
+                  "The placement statistics at DBATU vary from year to year and depend on factors such as the student's academic record, skills, and the job market. However, in recent years, the average salary package has been around INR 4-5 lakhs per annum, and the placement rate has been around 80-90%."
+                ]
+              },
+              {
+                "tag": "internship_opportunities",
+                "patterns": [
+                  "What internship opportunities are available to students at DBATU?",
+                  "Does DBATU help students find internships?",
+                  "How can I get an internship through DBATU?"
+                ],
+                "responses": [
+                  "DBATU has tie-ups with various industries and organizations to provide students with internship opportunities. The university's placement cell also helps students find internships through campus recruitment drives and industry connections."
+                ]
+              },
+              {
+                "tag": "alumni_network",
+                "patterns": [
+                  "Does DBATU have an alumni network?",
+                  "How can I connect with DBATU alumni?",
+                  "What is the role of the alumni network at DBATU?"
+                ],
+                "responses": [
+                  "Yes, DBATU has an active alumni network that helps current students with career guidance, mentorship, and networking opportunities. The alumni network also organizes events, workshops, and seminars to facilitate interaction between alumni and students. Here is link: https://alumni.dbatu.ac.in/home.dz"
+                ]
+              }            
+
+          ]
+        
+    
 }
