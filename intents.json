@@ -39,7 +39,7 @@
           "What financial aid is available for students from underprivileged backgrounds?",
           "Are there any scholarships specifically for students facing financial challenges?"
         ],
-        "response": "I'm not sure if there's a specific staff member dedicated to explaining all the government schemes, but I would recommend checking with the Student Welfare Department. They should be able to help you with information about scholarships and other financial assistance programs. You can also check the university website or contact the relevant government agencies directly."
+        "responses": "I'm not sure if there's a specific staff member dedicated to explaining all the government schemes, but I would recommend checking with the Student Welfare Department. They should be able to help you with information about scholarships and other financial assistance programs. You can also check the university website or contact the relevant government agencies directly."
       },
       {
         "tag": "GetPlacementInformation",
@@ -60,7 +60,7 @@
           "Could you share statistics on the employment rates and average salaries for graduates in various disciplines?",
           "I'm a Computer Engineering student. What are my chances of getting placed in Google?"
         ],
-        "response": "While these Google, Flipkart or Microsoft companies haven't visited DBATU for campus placements recently, it's definitely not impossible to get a job there after you graduate. Many DBATU alumni have gone on to work at these and other top tech companies. The key is to focus on developing your skills and experience, building a strong portfolio, and networking with industry professionals. You can also apply for jobs and internships at these companies directly. For more specific information about placements and packages for various branches, I recommend reaching out to the Training and Placement Cell directly."
+        "responses": "While these Google, Flipkart or Microsoft companies haven't visited DBATU for campus placements recently, it's definitely not impossible to get a job there after you graduate. Many DBATU alumni have gone on to work at these and other top tech companies. The key is to focus on developing your skills and experience, building a strong portfolio, and networking with industry professionals. You can also apply for jobs and internships at these companies directly. For more specific information about placements and packages for various branches, I recommend reaching out to the Training and Placement Cell directly."
       },
       {
         "tag": "GetAdmissionDocumentInformation",
@@ -73,7 +73,7 @@
           "Could you clarify if there are any additional documents needed for specific courses or programs?",
           "Is there a deadline for submitting the required admission documents?"
         ],
-        "response": "You can find the documents required for admission to DBATU on the university's website. The website has a dedicated Admissions section that provides detailed information about the admission process for different programs, including the eligibility criteria and the documents required for application.\n\nHere is the link to the DBATU Admissions website: https://dbatu.ac.in/admissions/"
+        "responses": "You can find the documents required for admission to DBATU on the university's website. The website has a dedicated Admissions section that provides detailed information about the admission process for different programs, including the eligibility criteria and the documents required for application.\n\nHere is the link to the DBATU Admissions website: https://dbatu.ac.in/admissions/"
       },
       {
         "tag": "GetUniversityInformation",
@@ -86,7 +86,7 @@
           "Could you elaborate on the facilities available for student support services at DBATU?",
           "What initiatives does DBATU undertake to promote diversity and inclusion within its campus community?"
         ],
-        "response": "There are many reasons why DBATU might be a good choice for you, depending on what you're looking for in a university. Some of the things that DBATU is known for include its strong academic programs, experienced faculty, good infrastructure, affordable fees, and focus on research and innovation. There's also a vibrant student life with lots of opportunities to get involved in clubs and organizations.\n\nUltimately, the decision of where to go to university is a personal one. I encourage you to do your research and consider your own individual needs and goals before making a decision."
+        "responses": "There are many reasons why DBATU might be a good choice for you, depending on what you're looking for in a university. Some of the things that DBATU is known for include its strong academic programs, experienced faculty, good infrastructure, affordable fees, and focus on research and innovation. There's also a vibrant student life with lots of opportunities to get involved in clubs and organizations.\n\nUltimately, the decision of where to go to university is a personal one. I encourage you to do your research and consider your own individual needs and goals before making a decision."
       },
       {
         "tag": "goodbye",
