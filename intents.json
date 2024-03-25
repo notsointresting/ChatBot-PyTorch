@@ -7,7 +7,14 @@
                     "Hi",
                     "Hello",
                     "Is anyone there?",
-                    "Good day"
+                    "Good day",
+                    "Hey",
+                    "Hola",
+                    "Namaste",
+                    "Good morning",
+                    "Good afternoon",
+                    "Good evening"
+
                 ],
                 "responses": [
                     "Hello, Welcome to Dr. Babasaheb Ambedkar Technological University! How can I assist you today?",
@@ -15,6 +22,75 @@
                     "Hello, what can I do for you today?"
                 ]
             },
+            {
+                "tag": "GetScholarshipInformation",
+                "patterns": [
+                    "Is there any special staff for explaining all government schemes related to scholarship and travelling scheme according to different castes?",
+                    "What scholarships are available for caste students?",
+                    "Are there any travel grants for students of caste?",
+                    "How can I apply for government scholarships for caste?",
+                    "Who can tell me about financial aid programs for caste students?",
+                    "Are there any grants specifically for students from marginalized communities?",
+                    "Can you provide information on scholarships available for minority students?",
+                    "Where can I find details about financial aid opportunities tailored to students from diverse backgrounds?",
+                    "Do you have resources for students seeking scholarships based on socioeconomic status?",
+                    "Is there assistance available for students facing financial hardships due to their background?"
+                ],
+                "response": "I'm not sure if there's a specific staff member dedicated to explaining all the government schemes, but I would recommend checking with the Student Welfare Department. They should be able to help you with information about scholarships and other financial assistance programs. You can also check the university website or contact the relevant government agencies directly."
+            },
+            {
+                "tag": "GetPlacementInformation",
+                "patterns": [
+                    "Is there any opportunity to get a placement in Google, Flipkart, or Microsoft?",
+                    "Do these companies recruit from DBATU?",
+                    "Can I get a job at these companies after graduating from DBATU?",
+                    "Are there any recent success stories of DBATU graduates securing positions in renowned companies?",
+                    "Can you offer guidance on how to prepare for job opportunities at top tech firms post-graduation?",
+                    "Do you have information on alumni who have successfully transitioned to careers in companies like Google, Flipkart, or Microsoft?",
+                    "What steps can students take to enhance their chances of being noticed by leading companies?"
+                ],
+                "response": "While these Google, Flipkart or Microsoft companies haven't visited DBATU for campus placements recently, it's definitely not impossible to get a job there after you graduate. Many DBATU alumni have gone on to work at these and other top tech companies. The key is to focus on developing your skills and experience, building a strong portfolio, and networking with industry professionals. You can also apply for jobs and internships at these companies directly."
+            },
+            {
+                "tag": "GetPlacementPackageInformation",
+                "patterns": [
+                    "Is there any awareness about the placement and package for lower branches?",
+                    "What are the placement opportunities for VLSI, chemical, petrochemical etc.?",
+                    "What is the average package for these branches?",
+                    "Is there data available on the salary packages offered to graduates from different branches?",
+                    "Can you provide insights into the placement trends for niche branches such as VLSI, chemical, and petrochemical engineering?",
+                    "Are there any industry-specific recruitment drives for particular branches?",
+                    "Could you share statistics on the employment rates and average salaries for graduates in various disciplines?"
+                ],
+                "response": "I'm not sure how much awareness there is about placements and packages for various branches, but I would recommend reaching out to the Training and Placement Cell directly. They should have comprehensive data on recent placements, average packages, and companies that recruit across different disciplines."
+            },
+            {
+                "tag": "GetAdmissionDocumentInformation",
+                "patterns": [
+                    "Can you provide documents required for admission?",
+                    "Where can I find the list of documents needed for admission?",
+                    "What documents do I need to submit to apply to DBATU?",
+                    "Are there any specific formats or guidelines for submitting admission documents?",
+                    "Do international applicants have different document requirements?",
+                    "Could you clarify if there are any additional documents needed for specific courses or programs?",
+                    "Is there a deadline for submitting the required admission documents?"
+                ],
+                "response": "You can find the documents required for admission to DBATU on the university's website. The website has a dedicated Admissions section that provides detailed information about the admission process for different programs, including the eligibility criteria and the documents required for application.\n\nHere is the link to the DBATU Admissions website: https://dbatu.ac.in/admissions/"
+            },
+            {
+                "tag": "GetUniversityInformation",
+                "patterns": [
+                    "Why DBATU?",
+                    "What are the advantages of studying at DBATU?",
+                    "What makes DBATU a good university?",
+                    "Can you provide testimonials from current students or alumni about their experiences at DBATU?",
+                    "Are there any notable research projects or collaborations that distinguish DBATU from other universities?",
+                    "Could you elaborate on the facilities available for student support services at DBATU?",
+                    "What initiatives does DBATU undertake to promote diversity and inclusion within its campus community?"
+                ],
+                "response": "There are many reasons why DBATU might be a good choice for you, depending on what you're looking for in a university. Some of the things that DBATU is known for include its strong academic programs, experienced faculty, good infrastructure, affordable fees, and focus on research and innovation. There's also a vibrant student life with lots of opportunities to get involved in clubs and organizations.\n\nUltimately, the decision of where to go to university is a personal one. I encourage you to do your research and consider your own individual needs and goals before making a decision."
+            },
+        
             {
                 "tag":"goodbye",
                 "patterns": [
