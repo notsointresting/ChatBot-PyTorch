@@ -65,6 +65,89 @@
                 "responses": ["For placement and package details for specific branches, contact the Training and Placement Cell. They have data on recent placements, average packages, and recruiting companies."]
             },
             {
+                "tag": "chemical_engineering",
+                "patterns": [
+                "What is Chemical Engineering?",
+                "Tell me about Chemical Engineering.",
+                "Explain Chemical Engineering.",
+                "What are the basics of Chemical Engineering?",
+                "Why study Chemical Engineering?"
+                ],
+                "responses": 
+                ["Chemical engineering is a great choice for people who are interested in chemistry and want to use their knowledge to solve real-world problems. Chemical engineers design and develop processes to create a wide range of products, from fuels and plastics to pharmaceuticals and food."]
+                
+            },
+            {
+                "tag": "petrochemical_engineering",
+                "patterns": [
+                "Can you tell me about Petrochemical Engineering?",
+                "What is Petrochemical Engineering?",
+                "Give me an overview of Petrochemical Engineering.",
+                "What are the applications of Petrochemical Engineering?",
+                "Why choose Petrochemical Engineering?"
+                ],
+                "responses": 
+                ["Petrochemical engineering is a specialized field of chemical engineering that focuses on the production of chemicals and fuels from petroleum and natural gas. Petrochemical engineers are in high demand, and they typically earn good salaries."]
+                
+            },
+            {
+                "tag": "mechanical_engineering",
+                "patterns": [
+                "What are the career opportunities in Mechanical Engineering?",
+                "Tell me about job prospects in Mechanical Engineering.",
+                "What can I do with a degree in Mechanical Engineering?",
+                "What industries hire Mechanical Engineers?",
+                "How is the job market for Mechanical Engineers?"
+                ],
+                "responses": 
+                ["Mechanical engineering is a broad field that involves the design, development, and manufacturing of machines and mechanical systems. Mechanical engineers are involved in a wide range of industries, from automotive and aerospace to energy and manufacturing."]
+                
+            },
+            {
+                "tag": "computer_engineering",
+                "patterns": [
+                "What do Computer Engineering engineers do?",
+                "Explain the role of Computer Engineering engineers.",
+                "What are the responsibilities of Computer Engineering engineers?",
+                "Describe a typical day for a Computer Engineering engineer.",
+                "What skills do I need for a career in Computer Engineering?"
+                ],
+                "responses": 
+                ["Computer engineering is a great choice for people who are interested in technology, enjoy solving problems, and want a career in a high-demand field with good salaries and job security. Computer engineers can make a real difference in the world by developing new technologies that improve people's lives."]
+                
+            },
+            {
+                "tag": "electronics_engineering",
+                "patterns": [
+                "Is Electronics & Telecommunication Engineering a good branch to study?",
+                "What are the benefits of studying Electronics & Telecommunication Engineering?",
+                "Why pursue a degree in Electronics & Telecommunication Engineering?",
+                "Can you tell me about the scope of Electronics & Telecommunication Engineering?",
+                "What are the advantages of choosing Electronics & Telecommunication Engineering?"
+                ],
+                "responses": 
+                ["Electronics and telecommunication engineering is a field that involves the design, development, and manufacturing of electronic devices and telecommunication systems. Electronics and telecommunication engineers are involved in a wide range of industries, from consumer electronics and mobile phones to telecommunications and aerospace."]
+                
+            },
+        
+        {
+        "tag": "Aim",
+        "patterns": [
+            "What is your aim?",
+            "What are you trying to achieve?",
+            "What is your purpose?",
+            "Why were you created?",
+            "What is your goal?"
+        ],
+        "responses": [
+            "My aim is to generate human-like answers that are informative, engaging, and helpful.",
+            "I aim to provide responses that are informative, engaging, and helpful to users.",
+            "My purpose is to assist users by generating human-like responses that are informative and engaging.",
+            "I was created with the aim of generating human-like answers that are informative, engaging, and helpful.",
+            "My goal is to continuously learn and improve in order to provide better responses to users."
+        ]
+        },
+            {
                 "tag": "GetAdmissionDocumentInformation",
                 "patterns": [
                     "Can you provide documents required for admission?",
